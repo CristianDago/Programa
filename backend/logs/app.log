@@ -1,0 +1,1077 @@
+2024-12-11T12:07:12.089Z [ERROR]: El email no se encuentra registrado
+2024-12-11T14:32:01.223Z [ERROR]: El email no se encuentra registrado
+2024-12-11T15:02:37.554Z [ERROR]: El email no se encuentra registrado
+2024-12-11T15:02:40.383Z [ERROR]: El email no se encuentra registrado
+2024-12-11T15:02:57.910Z [ERROR]: La contraseña es incorrecta
+2024-12-11T15:07:08.672Z [ERROR]: El rol 'undefined' no es válido. Los roles permitidos son: admin, catcher, editor, visit
+2024-12-11T18:48:02.245Z [ERROR]: El email no se encuentra registrado
+2024-12-11T18:49:43.607Z [ERROR]: La contraseña es incorrecta
+2024-12-11T19:49:39.786Z [ERROR]: "password" length must be at least 6 characters long
+2024-12-11T19:49:56.182Z [ERROR]: "email" must be a valid email
+2024-12-11T19:50:18.067Z [ERROR]: El email no se encuentra registrado
+2024-12-12T01:43:25.230Z [ERROR]: El email no se encuentra registrado
+2024-12-12T01:44:10.922Z [ERROR]: La contraseña es incorrecta
+2024-12-12T03:43:28.182Z [ERROR]: Expected property name or '}' in JSON at position 1 (line 1 column 2)
+2024-12-12T03:46:39.823Z [ERROR]: Expected double-quoted property name in JSON at position 36 (line 4 column 1)
+2024-12-12T03:49:25.005Z [ERROR]: Unexpected token 'e', "eyJhbGciOi"... is not valid JSON
+2024-12-12T15:32:40.361Z [ERROR]: El email no se encuentra registrado
+2024-12-12T15:32:58.114Z [ERROR]: "password" length must be at least 6 characters long
+2024-12-12T15:33:07.940Z [ERROR]: La contraseña es incorrecta
+2024-12-12T15:33:34.925Z [ERROR]: "email" is not allowed to be empty
+2024-12-12T15:33:48.792Z [ERROR]: "email" is required
+2024-12-12T16:57:57.480Z [ERROR]: El campo de correo electrónico no puede estar vacío.
+2024-12-12T16:58:10.020Z [ERROR]: El formato del correo electrónico es inválido.
+2024-12-12T16:58:28.873Z [ERROR]: El correo electrónico es obligatorio.
+2024-12-12T16:58:51.211Z [ERROR]: El email no se encuentra registrado
+2024-12-12T16:59:38.937Z [ERROR]: La contraseña debe tener al menos 6 caracteres.
+2024-12-12T16:59:46.413Z [ERROR]: La contraseña es incorrecta
+2024-12-12T17:00:36.423Z [ERROR]: El campo de correo electrónico no puede estar vacío.
+2024-12-12T17:13:15.857Z [ERROR]: El email ya está registrado
+2024-12-12T17:15:34.745Z [ERROR]: "expiresIn" should be a number of seconds or string representing a timespan eg: "1d", "20h", 60
+2024-12-12T17:16:04.232Z [ERROR]: El email ya está registrado
+2024-12-12T17:16:44.355Z [ERROR]: "expiresIn" should be a number of seconds or string representing a timespan eg: "1d", "20h", 60
+2024-12-12T20:54:48.969Z [ERROR]: El formato del correo electrónico es inválido.
+2024-12-12T20:55:27.614Z [ERROR]: El email no se encuentra registrado
+2024-12-12T20:55:38.080Z [ERROR]: El campo de correo electrónico no puede estar vacío.
+2024-12-12T20:55:51.022Z [ERROR]: La contraseña debe tener al menos 6 caracteres.
+2024-12-12T20:56:06.371Z [ERROR]: El correo electrónico es obligatorio.
+2024-12-12T20:56:25.878Z [ERROR]: El email no se encuentra registrado
+2024-12-12T20:56:34.958Z [ERROR]: La contraseña es incorrecta
+2024-12-12T20:57:02.005Z [ERROR]: El email no se encuentra registrado
+2024-12-12T20:58:11.669Z [ERROR]: El email ya está registrado
+2024-12-12T20:59:31.637Z [ERROR]: "expiresIn" should be a number of seconds or string representing a timespan eg: "1d", "20h", 60
+2024-12-12T21:08:06.591Z [ERROR]: El email ya está registrado
+2024-12-12T21:08:15.193Z [ERROR]: "expiresIn" should be a number of seconds or string representing a timespan eg: "1d", "20h", 60
+2024-12-12T21:10:04.328Z [ERROR]: El formato de expiresIn no es válido. Use una cadena como '1h', '1d', etc.
+2024-12-12T21:11:30.643Z [ERROR]: El email ya está registrado
+2024-12-12T21:11:36.589Z [ERROR]: El formato de expiresIn no es válido. Use una cadena como '1h', '1d', etc.
+2024-12-12T21:17:31.324Z [ERROR]: "expiresIn" should be a number of seconds or string representing a timespan eg: "1d", "20h", 60
+2024-12-13T01:20:02.750Z [ERROR]: El email no se encuentra registrado
+2024-12-13T01:20:13.924Z [ERROR]: La contraseña debe tener al menos 6 caracteres.
+2024-12-13T01:20:25.692Z [ERROR]: La contraseña es incorrecta
+2024-12-13T01:20:53.663Z [ERROR]: Expected ':' after property name in JSON at position 6 (line 2 column 5)
+2024-12-13T01:21:07.209Z [ERROR]: El correo electrónico es obligatorio.
+2024-12-13T01:21:16.687Z [ERROR]: El campo de correo electrónico no puede estar vacío.
+2024-12-13T01:21:26.580Z [ERROR]: Bad control character in string literal in JSON at position 6 (line 2 column 5)
+2024-12-13T01:35:55.708Z [ERROR]: El correo electrónico es obligatorio.
+2024-12-13T01:36:42.679Z [ERROR]: Expected ',' or '}' after property value in JSON at position 69 (line 4 column 3)
+2024-12-13T01:36:58.938Z [ERROR]: El email ya está registrado
+2024-12-13T01:37:32.664Z [ERROR]: El email ya está registrado
+2024-12-13T01:45:15.418Z [ERROR]: Expected double-quoted property name in JSON at position 66 (line 5 column 1)
+2024-12-13T02:02:25.272Z [ERROR]: El email ya está registrado
+2024-12-13T02:07:03.117Z [ERROR]: la sintaxis de entrada no es válida para tipo uuid: «186d2163-179d-4825-b1f8-438fad4ed9a»
+2024-12-13T02:07:21.672Z [ERROR]: la sintaxis de entrada no es válida para tipo uuid: «186d2163-179d-4825-b1f8-438fad4ed9a»
+2024-12-13T02:07:29.180Z [ERROR]: El ID de usuario no es válido
+2024-12-13T02:08:03.687Z [ERROR]: llave duplicada viola restricción de unicidad «users_email_key»
+2024-12-13T02:08:45.914Z [ERROR]: llave duplicada viola restricción de unicidad «users_email_key»
+2024-12-13T02:09:02.766Z [ERROR]: error de sintaxis en o cerca de «users»
+2024-12-13T02:26:49.915Z [ERROR]: error de sintaxis en o cerca de «users»
+2024-12-13T02:31:15.122Z [ERROR]: error de sintaxis en o cerca de «users»
+2024-12-13T02:35:21.245Z [ERROR]: error de sintaxis en o cerca de «users»
+2024-12-13T02:37:18.015Z [ERROR]: error de sintaxis en o cerca de «users»
+2024-12-13T02:46:10.653Z [ERROR]: El rol 'adin' no es válido. Los roles permitidos son: admin, catcher, editor, visit
+2024-12-13T02:51:38.679Z [ERROR]: error de sintaxis en o cerca de «users»
+2024-12-13T02:52:51.775Z [ERROR]: error de sintaxis en o cerca de «users»
+2024-12-13T03:29:32.405Z [ERROR]: El email no se encuentra registrado
+2024-12-13T03:30:06.765Z [ERROR]: La contraseña es incorrecta
+2024-12-13T03:36:46.756Z [ERROR]: No se pudo actualizar el usuario: ID inválido
+2024-12-13T03:37:18.010Z [ERROR]: la sintaxis de entrada no es válida para tipo uuid: «186d2163-179d-4825-b44f8-438fad4ed9ae»
+2024-12-13T03:58:53.899Z [ERROR]: El email no se encuentra registrado
+2024-12-13T04:08:59.575Z [ERROR]: El email no se encuentra registrado
+2024-12-13T04:09:20.368Z [ERROR]: El email no se encuentra registrado
+2024-12-13T04:09:41.837Z [ERROR]: El email no se encuentra registrado
+2024-12-13T04:10:05.980Z [ERROR]: El email no se encuentra registrado
+2024-12-13T04:18:32.321Z [ERROR]: El formato del correo electrónico es inválido.
+2024-12-13T04:18:44.147Z [ERROR]: El email no se encuentra registrado
+2024-12-13T04:19:11.277Z [ERROR]: El email no se encuentra registrado
+2024-12-13T04:19:20.270Z [ERROR]: La contraseña es incorrecta
+2024-12-13T04:19:45.681Z [ERROR]: El correo electrónico es obligatorio.
+2024-12-13T04:42:13.063Z [ERROR]: El email no se encuentra registrado
+2024-12-13T04:42:47.491Z [ERROR]: La contraseña es incorrecta
+2024-12-13T04:43:00.933Z [ERROR]: El campo de correo electrónico no puede estar vacío.
+2024-12-13T04:43:19.352Z [ERROR]: El campo de contraseña no puede estar vacío.
+2024-12-13T04:43:30.693Z [ERROR]: La contraseña es incorrecta
+2024-12-13T04:43:40.646Z [ERROR]: La contraseña debe tener al menos 6 caracteres.
+2024-12-13T04:47:25.399Z [ERROR]: El email ya está registrado
+2024-12-13T04:55:37.967Z [ERROR]: No se pudo actualizar el usuario: ID inválido
+2024-12-13T04:56:27.592Z [ERROR]: llave duplicada viola restricción de unicidad «users_email_key»
+2024-12-13T05:00:22.722Z [ERROR]: llave duplicada viola restricción de unicidad «users_email_key»
+2024-12-13T05:00:54.709Z [ERROR]: llave duplicada viola restricción de unicidad «users_email_key»
+2024-12-13T05:02:49.008Z [ERROR]: llave duplicada viola restricción de unicidad «users_email_key»
+2024-12-13T05:03:57.684Z [ERROR]: llave duplicada viola restricción de unicidad «users_email_key»
+2024-12-13T05:07:08.245Z [ERROR]: llave duplicada viola restricción de unicidad «users_email_key»
+2024-12-13T05:09:36.753Z [ERROR]: llave duplicada viola restricción de unicidad «users_email_key»
+2024-12-13T06:04:49.606Z [ERROR]: No se encontraron estudiantes registrados
+2024-12-13T06:05:10.871Z [ERROR]: no existe la columna «callstatus» en la relación «students»
+2024-12-13T06:20:52.994Z [ERROR]: No se encontraron estudiantes registrados
+2024-12-13T06:21:04.304Z [ERROR]: no existe la columna «callstatus» en la relación «students»
+2024-12-13T06:23:55.595Z [ERROR]: no existe la columna «callstatus» en la relación «students»
+2024-12-13T06:27:40.739Z [ERROR]: no existe la columna «callstatus» en la relación «students»
+2024-12-13T06:29:05.095Z [ERROR]: No se encontraron estudiantes registrados
+2024-12-13T06:29:38.390Z [ERROR]: no existe la columna «callstatus» en la relación «students»
+2024-12-13T06:44:54.031Z [ERROR]: Cannot read properties of undefined (reading 'completed')
+2024-12-13T06:47:04.945Z [ERROR]: no existe la columna «call1» en la relación «students»
+2024-12-13T06:48:30.934Z [ERROR]: INSERT tiene más columnas de destino que expresiones
+2024-12-13T06:51:38.898Z [ERROR]: INSERT tiene más columnas de destino que expresiones
+2024-12-13T06:52:15.776Z [ERROR]: INSERT tiene más columnas de destino que expresiones
+2024-12-13T07:00:35.920Z [ERROR]: no existe la columna «contactdate» en la relación «students»
+2024-12-13T07:03:19.116Z [ERROR]: INSERT tiene más columnas de destino que expresiones
+2024-12-13T07:06:03.671Z [ERROR]: INSERT tiene más columnas de destino que expresiones
+2024-12-13T12:48:17.641Z [ERROR]: No se encontraron estudiantes registrados
+2024-12-13T12:48:28.936Z [ERROR]: INSERT tiene más columnas de destino que expresiones
+2024-12-13T12:57:31.136Z [ERROR]: INSERT tiene más columnas de destino que expresiones
+2024-12-13T13:09:06.942Z [ERROR]: El email ya está registrado
+2024-12-13T13:31:58.156Z [ERROR]: No se encontraron estudiantes registrados
+2024-12-13T13:32:19.589Z [ERROR]: el valor nulo en la columna «phone» de la relación «students» viola la restricción de no nulo
+2024-12-13T13:40:35.355Z [ERROR]: Expected ',' or '}' after property value in JSON at position 80 (line 4 column 36)
+2024-12-13T13:46:01.249Z [ERROR]: El número de teléfono es obligatorio
+2024-12-13T13:50:18.749Z [ERROR]: El número de teléfono es obligatorio
+2024-12-13T13:50:34.745Z [ERROR]: la sintaxis de entrada no es válida para tipo bigint: «carlos.perez@gmail.com»
+2024-12-13T13:50:48.058Z [ERROR]: el valor nulo en la columna «email» de la relación «students» viola la restricción de no nulo
+2024-12-13T13:51:50.457Z [ERROR]: El apellido es obligatorio
+2024-12-13T14:04:13.993Z [ERROR]: No se encontraron estudiantes registrados
+2024-12-13T14:06:45.569Z [ERROR]: El número de teléfono es obligatorio
+2024-12-13T14:28:53.951Z [ERROR]: El email ya está registrado
+2024-12-13T14:31:44.142Z [ERROR]: El email ya está registrado
+2024-12-13T14:39:13.005Z [ERROR]: El apellido es obligatorio
+2024-12-13T14:39:25.118Z [ERROR]: El email ya está registrado
+2024-12-13T14:40:48.770Z [ERROR]: El apellido es obligatorio
+2024-12-13T14:40:59.628Z [ERROR]: El nombre es obligatorio
+2024-12-13T14:41:08.921Z [ERROR]: El email ya está registrado
+2024-12-13T14:42:54.377Z [ERROR]: la sintaxis de entrada no es válida para tipo uuid: «cac5e120-36f7-407e-a6c9-ba423175a5dr»
+2024-12-13T14:43:17.781Z [ERROR]: la sintaxis de entrada no es válida para tipo uuid: «cac5e120-36f7-407e-a6c9-ba423175a5d»
+2024-12-13T14:43:26.573Z [ERROR]: El ID de estudiante no es válido
+2024-12-13T14:43:35.440Z [ERROR]: El ID de estudiante no es válido
+2024-12-13T14:44:28.042Z [ERROR]: El ID de estudiante no es válido
+2024-12-13T14:45:14.502Z [ERROR]: El ID de estudiante no es válido
+2024-12-13T14:46:02.444Z [ERROR]: El ID de estudiante no es válido
+2024-12-13T14:46:40.580Z [ERROR]: El ID de estudiante no es válido
+2024-12-13T15:00:26.425Z [ERROR]: la sintaxis de entrada no es válida para tipo uuid: «9ace940a-203f-4fd1-a677-df8a588ac9vc»
+2024-12-13T15:00:44.273Z [ERROR]: No se encontró el estudiante para eliminar
+2024-12-13T15:01:16.147Z [ERROR]: No se pudo actualizar el estudiante: ID inválido
+2024-12-13T15:03:23.174Z [ERROR]: No se pudo actualizar el estudiante: ID inválido
+2024-12-13T15:07:57.523Z [ERROR]: El email no se puede modificar
+2024-12-13T15:08:24.363Z [ERROR]: El email no se puede modificar
+2024-12-13T15:08:32.989Z [ERROR]: El email no se puede modificar
+2024-12-13T15:08:54.535Z [ERROR]: El email no se puede modificar
+2024-12-13T15:09:54.447Z [ERROR]: El email no se puede modificar
+2024-12-13T15:10:07.237Z [ERROR]: El email no se puede modificar
+2024-12-13T15:12:20.117Z [ERROR]: El email ya está registrado por otro estudiante
+2024-12-13T15:41:42.328Z [ERROR]: El email ya está registrado por otro estudiante
+2024-12-13T16:02:36.625Z [ERROR]: El email no se encuentra registrado
+2024-12-13T16:02:50.760Z [ERROR]: La contraseña debe tener al menos 6 caracteres.
+2024-12-13T16:02:58.984Z [ERROR]: La contraseña es incorrecta
+2024-12-13T16:03:16.785Z [ERROR]: El formato del correo electrónico es inválido.
+2024-12-13T16:03:28.088Z [ERROR]: El campo de correo electrónico no puede estar vacío.
+2024-12-13T16:03:35.949Z [ERROR]: La contraseña es incorrecta
+2024-12-13T16:04:34.324Z [ERROR]: El email ya está registrado
+2024-12-13T16:05:24.494Z [ERROR]: El email ya está registrado
+2024-12-13T16:07:52.342Z [ERROR]: El ID de usuario no es válido
+2024-12-13T16:11:21.025Z [ERROR]: llave duplicada viola restricción de unicidad «users_email_key»
+2024-12-13T16:11:50.146Z [ERROR]: El rol no es válido.
+2024-12-13T16:12:06.067Z [ERROR]: El rol no es válido.
+2024-12-13T16:12:32.006Z [ERROR]: No se encontró el usuario para eliminar
+2024-12-13T16:13:23.418Z [ERROR]: El número de teléfono es obligatorio
+2024-12-13T16:13:37.564Z [ERROR]: El email ya está registrado
+2024-12-13T16:13:49.113Z [ERROR]: El email ya está registrado
+2024-12-13T16:14:05.510Z [ERROR]: El email ya está registrado
+2024-12-13T16:17:08.953Z [ERROR]: No se encontró el estudiante para eliminar
+2024-12-13T20:41:58.405Z [ERROR]: Error al cargar usuarios
+2024-12-13T20:44:10.359Z [ERROR]: Error al cargar usuarios
+2024-12-13T20:44:31.989Z [ERROR]: Error al cargar usuarios
+2024-12-13T20:44:36.593Z [ERROR]: Error al cargar usuarios
+2024-12-13T20:44:44.822Z [ERROR]: Error al cargar usuarios
+2024-12-13T20:46:37.332Z [ERROR]: Error al cargar usuarios
+2024-12-13T20:48:31.196Z [ERROR]: Error al cargar usuarios
+2024-12-13T20:48:59.487Z [ERROR]: Error al cargar usuarios
+2024-12-13T20:50:25.891Z [ERROR]: Error al cargar usuarios
+2024-12-13T20:51:30.466Z [ERROR]: Error al cargar usuarios
+2024-12-13T20:52:01.146Z [ERROR]: Error al cargar usuarios
+2024-12-13T20:52:28.209Z [ERROR]: Error al cargar usuarios
+2024-12-13T20:52:32.880Z [ERROR]: Error al cargar usuarios
+2024-12-13T20:54:54.070Z [ERROR]: __vite_ssr_import_0__.UserModel.findById is not a function
+2024-12-13T20:58:10.707Z [ERROR]: Error al cargar usuarios
+2024-12-13T21:00:17.545Z [ERROR]: Error al cargar usuarios
+2024-12-13T21:00:39.988Z [ERROR]: Error al cargar usuarios
+2024-12-13T21:12:15.851Z [ERROR]: Error al cargar usuarios
+2024-12-13T21:12:48.622Z [ERROR]: Error al cargar usuarios
+2024-12-13T21:13:23.369Z [ERROR]: Error al cargar usuarios
+2024-12-13T21:13:31.447Z [ERROR]: Error al cargar usuarios
+2024-12-13T21:14:18.115Z [ERROR]: Error al cargar usuarios
+2024-12-13T21:15:53.635Z [ERROR]: Error al cargar usuarios
+2024-12-13T21:17:22.705Z [ERROR]: Error al cargar usuarios
+2024-12-13T21:17:25.343Z [ERROR]: Error al cargar usuarios
+2024-12-13T21:17:29.228Z [ERROR]: Error al cargar usuarios
+2024-12-13T21:17:59.963Z [ERROR]: Error al cargar usuarios
+2024-12-13T21:18:17.786Z [ERROR]: Error al cargar usuarios
+2024-12-13T21:24:06.588Z [ERROR]: __vite_ssr_import_0__.UserModel.findById is not a function
+2024-12-13T21:24:25.703Z [ERROR]: Error al cargar usuarios
+2024-12-13T21:27:04.673Z [ERROR]: Error al cargar usuarios
+2024-12-13T21:27:23.232Z [ERROR]: Error al cargar usuarios
+2024-12-13T21:41:55.618Z [ERROR]: Error al cargar usuarios
+2024-12-13T21:44:53.501Z [ERROR]: Error al cargar usuarios
+2024-12-13T21:45:06.376Z [ERROR]: Error al cargar usuarios
+2024-12-13T21:45:08.255Z [ERROR]: Error al cargar usuarios
+2024-12-13T21:45:11.729Z [ERROR]: Error al cargar usuarios
+2024-12-13T21:45:23.060Z [ERROR]: Error al cargar usuarios
+2024-12-13T21:48:11.972Z [ERROR]: Error al cargar usuarios
+2024-12-13T21:48:17.713Z [ERROR]: Error al cargar usuarios
+2024-12-13T21:48:35.765Z [ERROR]: Error al cargar usuarios
+2024-12-13T21:49:34.222Z [ERROR]: Error al cargar usuarios
+2024-12-13T21:59:40.997Z [ERROR]: "expiresIn" should be a number of seconds or string representing a timespan eg: "1d", "20h", 60
+2024-12-13T22:13:57.172Z [ERROR]: Error al cargar usuarios
+2024-12-13T22:15:23.826Z [ERROR]: Error al cargar usuarios
+2024-12-13T22:15:44.660Z [ERROR]: Error al cargar usuarios
+2024-12-13T22:15:53.831Z [ERROR]: Error al cargar usuarios
+2024-12-13T22:18:42.985Z [ERROR]: Error al cargar usuarios
+2024-12-13T22:19:28.439Z [ERROR]: Error al cargar usuarios
+2024-12-13T22:19:35.118Z [ERROR]: Error al cargar usuarios
+2024-12-13T22:20:57.676Z [ERROR]: Error al cargar usuarios
+2024-12-13T22:22:55.485Z [ERROR]: Error al cargar usuarios
+2024-12-13T22:23:56.445Z [ERROR]: Error al cargar usuarios
+2024-12-13T22:24:44.425Z [ERROR]: Error al cargar usuarios
+2024-12-13T22:24:48.916Z [ERROR]: Error al cargar usuarios
+2024-12-13T22:38:54.819Z [ERROR]: El correo electrónico es obligatorio.
+2024-12-13T22:39:35.336Z [ERROR]: El correo electrónico es obligatorio.
+2024-12-13T22:40:04.206Z [ERROR]: El correo electrónico es obligatorio.
+2024-12-13T22:40:30.411Z [ERROR]: El correo electrónico es obligatorio.
+2024-12-13T22:41:04.277Z [ERROR]: El correo electrónico es obligatorio.
+2024-12-13T22:42:03.221Z [ERROR]: El correo electrónico es obligatorio.
+2024-12-13T23:04:33.564Z [ERROR]: Error al cargar usuarios
+2024-12-13T23:04:56.482Z [ERROR]: Error al cargar usuarios
+2024-12-13T23:05:25.752Z [ERROR]: Error al cargar usuarios
+2024-12-13T23:09:50.571Z [ERROR]: Error al cargar usuarios
+2024-12-13T23:10:13.758Z [ERROR]: Error al cargar usuarios
+2024-12-13T23:10:39.845Z [ERROR]: Error al cargar usuarios
+2024-12-13T23:12:42.174Z [ERROR]: Error al cargar usuarios
+2024-12-13T23:13:10.535Z [ERROR]: Error al cargar usuarios
+2024-12-13T23:13:31.801Z [ERROR]: Error al cargar usuarios
+2024-12-13T23:15:17.234Z [ERROR]: Error al cargar usuarios
+2024-12-14T00:17:36.206Z [ERROR]: El email ya está registrado
+2024-12-14T00:18:02.643Z [ERROR]: El número de teléfono es obligatorio
+2024-12-14T00:18:18.416Z [ERROR]: El email ya está registrado
+2024-12-14T00:25:09.111Z [ERROR]: Error al cargar usuarios
+2024-12-14T00:25:12.113Z [ERROR]: Error al cargar usuarios
+2024-12-14T00:27:26.504Z [ERROR]: Error al cargar usuarios
+2024-12-14T00:27:26.567Z [ERROR]: El ID de usuario no es válido
+2024-12-14T00:27:46.702Z [ERROR]: Error al cargar usuarios
+2024-12-14T00:27:46.774Z [ERROR]: El ID de usuario no es válido
+2024-12-14T00:30:51.381Z [ERROR]: Error al cargar usuarios
+2024-12-14T00:30:58.599Z [ERROR]: Error al cargar usuarios
+2024-12-14T00:37:30.807Z [ERROR]: El ID de usuario no es válido
+2024-12-14T00:37:36.709Z [ERROR]: El ID de usuario no es válido
+2024-12-14T00:37:44.996Z [ERROR]: El ID de usuario no es válido
+2024-12-14T00:42:25.206Z [ERROR]: El ID de usuario no es válido
+2024-12-14T00:42:38.511Z [ERROR]: El ID de usuario no es válido
+2024-12-14T00:45:26.141Z [ERROR]: El ID de usuario no es válido
+2024-12-14T00:45:29.870Z [ERROR]: El ID de usuario no es válido
+2024-12-14T00:45:45.017Z [ERROR]: El ID de usuario no es válido
+2024-12-14T00:50:15.779Z [ERROR]: El ID de usuario no es válido
+2024-12-14T00:50:39.579Z [ERROR]: El ID de usuario no es válido
+2024-12-14T00:50:52.796Z [ERROR]: El ID de usuario no es válido
+2024-12-14T00:51:02.726Z [ERROR]: El ID de usuario no es válido
+2024-12-14T00:55:35.242Z [ERROR]: El ID de usuario no es válido
+2024-12-14T00:55:54.586Z [ERROR]: El ID de usuario no es válido
+2024-12-14T00:57:57.759Z [ERROR]: El ID de usuario no es válido
+2024-12-14T00:59:22.576Z [ERROR]: El ID de usuario no es válido
+2024-12-14T00:59:56.198Z [ERROR]: El ID de usuario no es válido
+2024-12-14T01:00:23.434Z [ERROR]: El ID de usuario no es válido
+2024-12-14T01:00:49.707Z [ERROR]: El ID de usuario no es válido
+2024-12-14T01:01:54.198Z [ERROR]: El ID de usuario no es válido
+2024-12-14T01:02:41.147Z [ERROR]: El ID de usuario no es válido
+2024-12-14T01:02:54.831Z [ERROR]: El ID de usuario no es válido
+2024-12-14T01:03:10.584Z [ERROR]: El ID de usuario no es válido
+2024-12-14T01:03:42.403Z [ERROR]: El ID de usuario no es válido
+2024-12-14T01:04:00.177Z [ERROR]: El ID de usuario no es válido
+2024-12-14T01:04:08.692Z [ERROR]: El ID de usuario no es válido
+2024-12-14T01:04:31.683Z [ERROR]: El ID de usuario no es válido
+2024-12-14T01:05:35.662Z [ERROR]: El ID de usuario no es válido
+2024-12-14T01:05:56.712Z [ERROR]: El ID de usuario no es válido
+2024-12-14T01:06:26.953Z [ERROR]: El ID de usuario no es válido
+2025-01-10T17:50:07.112Z [ERROR]: El campo de correo electrónico no puede estar vacío.
+2025-01-10T17:51:03.227Z [ERROR]: El campo de correo electrónico no puede estar vacío.
+2025-01-10T17:51:25.750Z [ERROR]: El campo de correo electrónico no puede estar vacío.
+2025-01-10T17:52:01.040Z [ERROR]: El email no se encuentra registrado
+2025-01-10T17:53:05.335Z [ERROR]: El campo de correo electrónico no puede estar vacío.
+2025-01-10T18:04:27.587Z [ERROR]: El campo de correo electrónico no puede estar vacío.
+2025-01-10T18:04:46.462Z [ERROR]: El campo de correo electrónico no puede estar vacío.
+2025-01-14T21:57:07.264Z [ERROR]: El email ya está registrado
+2025-01-15T13:47:53.583Z [ERROR]: El email no se encuentra registrado
+2025-01-15T13:52:26.273Z [ERROR]: Illegal arguments: string, undefined
+2025-01-15T13:53:55.693Z [ERROR]: Illegal arguments: string, undefined
+2025-01-15T13:54:04.852Z [ERROR]: Illegal arguments: string, undefined
+2025-01-15T13:54:28.316Z [ERROR]: Illegal arguments: string, undefined
+2025-01-15T14:02:30.334Z [ERROR]: Illegal arguments: string, undefined
+2025-01-15T14:04:09.953Z [ERROR]: Error interno: datos del usuario incompletos
+2025-01-15T14:06:29.027Z [ERROR]: Error interno: datos del usuario incompletos
+2025-01-15T14:07:45.718Z [ERROR]: Error interno: datos del usuario incompletos
+2025-01-15T14:18:06.163Z [ERROR]: Error interno: datos del usuario incompletos
+2025-01-15T14:23:27.980Z [ERROR]: Error interno: datos del usuario incompletos
+2025-01-15T14:49:31.519Z [ERROR]: La contraseña debe tener al menos 6 caracteres.
+2025-01-15T14:49:38.189Z [ERROR]: La contraseña es incorrecta
+2025-01-15T15:04:45.926Z [ERROR]: La contraseña es incorrecta
+2025-01-15T15:04:55.244Z [ERROR]: La contraseña es incorrecta
+2025-01-15T15:05:04.151Z [ERROR]: El email no se encuentra registrado
+2025-01-15T15:05:11.158Z [ERROR]: El formato del correo electrónico es inválido.
+2025-01-15T15:05:27.497Z [ERROR]: El formato del correo electrónico es inválido.
+2025-01-15T15:05:33.410Z [ERROR]: El email no se encuentra registrado
+2025-01-15T15:05:54.809Z [ERROR]: El email no se encuentra registrado
+2025-01-15T15:08:14.040Z [ERROR]: El ID de usuario no es válido
+2025-01-15T15:24:16.316Z [ERROR]: No se encontraron estudiantes registrados
+2025-01-15T19:33:28.085Z [ERROR]: El rol no es válido.
+2025-01-15T20:08:58.511Z [ERROR]: El email no se encuentra registrado
+2025-01-15T20:10:46.101Z [ERROR]: La contraseña debe tener al menos 6 caracteres.
+2025-01-15T20:11:35.795Z [ERROR]: La contraseña es incorrecta
+2025-01-15T20:15:48.248Z [ERROR]: El formato del correo electrónico es inválido.
+2025-01-15T20:41:42.435Z [ERROR]: El email ya está registrado
+2025-01-15T20:58:00.502Z [ERROR]: El ID de usuario no es válido
+2025-01-15T21:05:24.553Z [ERROR]: llave duplicada viola restricción de unicidad «Users_email_key»
+2025-01-15T21:06:06.754Z [ERROR]: No se pudo actualizar el usuario: ID inválido
+2025-01-15T21:08:30.548Z [ERROR]: El rol no es válido.
+2025-01-15T21:09:39.240Z [ERROR]: llave duplicada viola restricción de unicidad «Users_email_key»
+2025-01-15T21:10:46.388Z [ERROR]: llave duplicada viola restricción de unicidad «Users_email_key»
+2025-01-15T21:14:01.538Z [ERROR]: No se encontró el usuario para eliminar
+2025-01-15T23:24:59.782Z [ERROR]: No se encontraron estudiantes registrados
+2025-01-15T23:26:29.857Z [ERROR]: El nombre es obligatorio
+2025-01-15T23:27:39.734Z [ERROR]: El número de teléfono es obligatorio
+2025-01-15T23:33:21.310Z [ERROR]: El ID de estudiante no es válido
+2025-01-15T23:35:55.202Z [ERROR]: El email ya está registrado por otro estudiante
+2025-01-15T23:36:21.730Z [ERROR]: notNull Violation: Student.phone cannot be null
+2025-01-15T23:36:47.403Z [ERROR]: notNull Violation: Student.phone cannot be null
+2025-01-15T23:56:36.399Z [ERROR]: No se encontró el estudiante para eliminar
+2025-01-16T01:29:22.114Z [ERROR]: El email no se encuentra registrado
+2025-01-16T01:29:37.502Z [ERROR]: La contraseña es incorrecta
+2025-01-16T01:29:41.980Z [ERROR]: La contraseña debe tener al menos 6 caracteres.
+2025-01-16T01:29:48.968Z [ERROR]: La contraseña es incorrecta
+2025-01-16T01:29:55.035Z [ERROR]: La contraseña es incorrecta
+2025-01-16T01:30:00.429Z [ERROR]: El email no se encuentra registrado
+2025-01-16T01:30:15.592Z [ERROR]: La contraseña es incorrecta
+2025-01-16T02:13:21.374Z [ERROR]: El campo de correo electrónico no puede estar vacío.
+2025-01-16T02:18:55.401Z [ERROR]: El campo de correo electrónico no puede estar vacío.
+2025-01-16T02:18:58.325Z [ERROR]: El campo de correo electrónico no puede estar vacío.
+2025-01-16T02:33:50.291Z [ERROR]: El campo de correo electrónico no puede estar vacío.
+2025-01-16T02:47:22.946Z [ERROR]: El campo de correo electrónico no puede estar vacío.
+2025-01-16T02:47:24.496Z [ERROR]: El campo de correo electrónico no puede estar vacío.
+2025-01-16T02:56:07.850Z [ERROR]: El campo de correo electrónico no puede estar vacío.
+2025-01-16T02:56:11.808Z [ERROR]: El campo de correo electrónico no puede estar vacío.
+2025-01-16T02:57:11.303Z [ERROR]: El campo de correo electrónico no puede estar vacío.
+2025-01-16T19:11:18.601Z [ERROR]: La contraseña debe tener al menos 6 caracteres.
+2025-01-16T19:12:07.649Z [ERROR]: La contraseña debe tener al menos 6 caracteres.
+2025-01-20T01:12:11.438Z [ERROR]: El formato del correo electrónico es inválido.
+2025-01-20T01:12:16.779Z [ERROR]: La contraseña debe tener al menos 6 caracteres.
+2025-01-20T01:12:23.158Z [ERROR]: El email no se encuentra registrado
+2025-01-20T01:12:40.852Z [ERROR]: La contraseña es incorrecta
+2025-01-22T23:01:04.841Z [ERROR]: La contraseña debe tener al menos 6 caracteres.
+2025-01-22T23:01:39.234Z [ERROR]: La contraseña es incorrecta
+2025-01-22T23:12:23.828Z [ERROR]: El email no se encuentra registrado
+2025-01-22T23:12:34.384Z [ERROR]: La contraseña es incorrecta
+2025-01-22T23:12:42.360Z [ERROR]: La contraseña debe tener al menos 6 caracteres.
+2025-01-22T23:42:10.303Z [ERROR]: El campo de correo electrónico no puede estar vacío.
+2025-01-22T23:51:29.682Z [ERROR]: El campo de correo electrónico no puede estar vacío.
+2025-01-22T23:51:32.864Z [ERROR]: El campo de correo electrónico no puede estar vacío.
+2025-01-22T23:51:36.479Z [ERROR]: El campo de correo electrónico no puede estar vacío.
+2025-01-23T00:09:14.507Z [ERROR]: El campo de correo electrónico no puede estar vacío.
+2025-01-23T00:26:15.583Z [ERROR]: La contraseña debe tener al menos 6 caracteres.
+2025-01-23T00:26:18.097Z [ERROR]: La contraseña es incorrecta
+2025-01-23T01:38:56.104Z [ERROR]: El campo de correo electrónico no puede estar vacío.
+2025-01-23T01:46:31.100Z [ERROR]: La contraseña es incorrecta
+2025-01-23T01:47:40.816Z [ERROR]: El email no se encuentra registrado
+2025-01-23T01:49:15.895Z [ERROR]: La contraseña es incorrecta
+2025-01-23T01:49:20.915Z [ERROR]: La contraseña debe tener al menos 6 caracteres.
+2025-01-23T01:49:25.389Z [ERROR]: La contraseña es incorrecta
+2025-01-23T02:06:42.549Z [ERROR]: La contraseña debe tener al menos 6 caracteres.
+2025-01-23T02:06:44.461Z [ERROR]: La contraseña es incorrecta
+2025-01-23T02:06:46.518Z [ERROR]: La contraseña es incorrecta
+2025-01-23T02:06:46.608Z [ERROR]: La contraseña es incorrecta
+2025-01-23T02:06:48.321Z [ERROR]: La contraseña es incorrecta
+2025-01-23T02:06:51.508Z [ERROR]: La contraseña debe tener al menos 6 caracteres.
+2025-01-23T02:06:54.590Z [ERROR]: La contraseña es incorrecta
+2025-01-23T02:06:56.324Z [ERROR]: La contraseña es incorrecta
+2025-01-23T02:35:33.750Z [ERROR]: El formato del correo electrónico es inválido.
+2025-01-23T02:35:35.002Z [ERROR]: El formato del correo electrónico es inválido.
+2025-01-23T02:35:53.228Z [ERROR]: La contraseña es incorrecta
+2025-01-23T02:35:55.047Z [ERROR]: La contraseña es incorrecta
+2025-01-23T02:35:58.729Z [ERROR]: La contraseña es incorrecta
+2025-01-23T02:36:00.118Z [ERROR]: La contraseña es incorrecta
+2025-01-23T02:36:07.186Z [ERROR]: La contraseña debe tener al menos 6 caracteres.
+2025-01-23T02:36:11.592Z [ERROR]: La contraseña es incorrecta
+2025-01-23T02:36:15.908Z [ERROR]: La contraseña es incorrecta
+2025-01-23T02:36:17.441Z [ERROR]: La contraseña es incorrecta
+2025-01-23T02:36:18.252Z [ERROR]: La contraseña es incorrecta
+2025-01-23T02:36:18.438Z [ERROR]: La contraseña es incorrecta
+2025-01-23T02:36:18.596Z [ERROR]: La contraseña es incorrecta
+2025-01-23T02:36:23.377Z [ERROR]: La contraseña es incorrecta
+2025-01-23T02:37:02.543Z [ERROR]: La contraseña es incorrecta
+2025-01-23T02:37:24.122Z [ERROR]: La contraseña es incorrecta
+2025-01-23T02:37:39.202Z [ERROR]: La contraseña es incorrecta
+2025-01-23T03:00:12.191Z [ERROR]: La contraseña debe tener al menos 6 caracteres.
+2025-01-23T03:00:16.449Z [ERROR]: La contraseña es incorrecta
+2025-01-23T12:40:30.434Z [ERROR]: La contraseña es incorrecta
+2025-01-23T13:06:51.849Z [ERROR]: La contraseña es incorrecta
+2025-01-23T14:58:40.863Z [ERROR]: La contraseña debe tener al menos 6 caracteres.
+2025-01-23T14:58:43.716Z [ERROR]: La contraseña es incorrecta
+2025-01-23T15:26:02.494Z [ERROR]: La contraseña es incorrecta
+2025-01-23T15:26:05.872Z [ERROR]: La contraseña debe tener al menos 6 caracteres.
+2025-01-23T15:26:08.564Z [ERROR]: El formato del correo electrónico es inválido.
+2025-01-23T15:41:59.812Z [ERROR]: La contraseña es incorrecta
+2025-01-23T15:42:03.096Z [ERROR]: La contraseña es incorrecta
+2025-01-23T15:42:04.014Z [ERROR]: La contraseña es incorrecta
+2025-01-23T15:42:06.313Z [ERROR]: La contraseña debe tener al menos 6 caracteres.
+2025-01-23T15:42:08.838Z [ERROR]: La contraseña es incorrecta
+2025-01-23T16:05:44.600Z [ERROR]: La contraseña debe tener al menos 6 caracteres.
+2025-01-23T16:33:25.751Z [ERROR]: la sintaxis de entrada no es válida para tipo uuid: «undefined»
+2025-01-23T16:33:25.768Z [ERROR]: la sintaxis de entrada no es válida para tipo uuid: «undefined»
+2025-01-23T16:33:38.124Z [ERROR]: la sintaxis de entrada no es válida para tipo uuid: «undefined»
+2025-01-23T16:33:38.133Z [ERROR]: la sintaxis de entrada no es válida para tipo uuid: «undefined»
+2025-01-23T16:33:39.293Z [ERROR]: la sintaxis de entrada no es válida para tipo uuid: «undefined»
+2025-01-23T16:33:39.306Z [ERROR]: la sintaxis de entrada no es válida para tipo uuid: «undefined»
+2025-01-23T16:33:42.237Z [ERROR]: la sintaxis de entrada no es válida para tipo uuid: «undefined»
+2025-01-23T16:33:42.250Z [ERROR]: la sintaxis de entrada no es válida para tipo uuid: «undefined»
+2025-01-23T16:35:44.325Z [ERROR]: la sintaxis de entrada no es válida para tipo uuid: «undefined»
+2025-01-23T16:35:44.340Z [ERROR]: la sintaxis de entrada no es válida para tipo uuid: «undefined»
+2025-01-23T16:37:25.829Z [ERROR]: la sintaxis de entrada no es válida para tipo uuid: «undefined»
+2025-01-23T16:37:25.839Z [ERROR]: la sintaxis de entrada no es válida para tipo uuid: «undefined»
+2025-01-23T16:40:39.676Z [ERROR]: la sintaxis de entrada no es válida para tipo uuid: «undefined»
+2025-01-23T16:40:39.691Z [ERROR]: la sintaxis de entrada no es válida para tipo uuid: «undefined»
+2025-01-23T16:40:52.602Z [ERROR]: El campo de correo electrónico no puede estar vacío.
+2025-01-23T16:42:57.991Z [ERROR]: la sintaxis de entrada no es válida para tipo uuid: «undefined»
+2025-01-23T16:42:58.001Z [ERROR]: la sintaxis de entrada no es válida para tipo uuid: «undefined»
+2025-01-23T16:53:34.039Z [ERROR]: La contraseña es incorrecta
+2025-01-23T16:53:36.733Z [ERROR]: La contraseña debe tener al menos 6 caracteres.
+2025-01-23T16:53:40.177Z [ERROR]: La contraseña es incorrecta
+2025-01-23T16:53:48.540Z [ERROR]: La contraseña es incorrecta
+2025-01-23T16:53:49.863Z [ERROR]: La contraseña es incorrecta
+2025-01-23T16:53:55.140Z [ERROR]: El campo de contraseña no puede estar vacío.
+2025-01-23T16:53:57.733Z [ERROR]: El campo de contraseña no puede estar vacío.
+2025-01-23T16:53:59.898Z [ERROR]: El campo de contraseña no puede estar vacío.
+2025-01-23T16:54:00.950Z [ERROR]: La contraseña debe tener al menos 6 caracteres.
+2025-01-26T14:12:43.728Z [ERROR]: La contraseña es incorrecta
+2025-01-27T02:08:20.141Z [ERROR]: La contraseña es incorrecta
+2025-01-27T02:08:23.933Z [ERROR]: La contraseña debe tener al menos 6 caracteres.
+2025-01-27T02:08:37.255Z [ERROR]: La contraseña es incorrecta
+2025-01-27T02:09:41.450Z [ERROR]: El campo de correo electrónico no puede estar vacío.
+2025-01-27T02:38:14.231Z [ERROR]: La contraseña debe tener al menos 6 caracteres.
+2025-01-27T12:18:32.481Z [ERROR]: La contraseña debe tener al menos 6 caracteres.
+2025-01-27T16:58:08.997Z [ERROR]: La contraseña debe tener al menos 6 caracteres.
+2025-01-27T16:58:14.952Z [ERROR]: La contraseña es incorrecta
+2025-01-27T16:58:24.193Z [ERROR]: La contraseña debe tener al menos 6 caracteres.
+2025-01-27T16:58:30.308Z [ERROR]: El email no se encuentra registrado
+2025-01-27T19:49:17.290Z [ERROR]: El formato del correo electrónico es inválido.
+2025-01-27T19:49:19.441Z [ERROR]: El formato del correo electrónico es inválido.
+2025-01-27T19:49:29.522Z [ERROR]: La contraseña debe tener al menos 6 caracteres.
+2025-01-27T19:49:32.691Z [ERROR]: La contraseña es incorrecta
+2025-01-27T20:37:24.809Z [ERROR]: El campo de correo electrónico no puede estar vacío.
+2025-01-27T20:38:03.523Z [ERROR]: La contraseña es incorrecta
+2025-01-27T20:38:06.883Z [ERROR]: La contraseña es incorrecta
+2025-01-27T20:38:07.518Z [ERROR]: La contraseña es incorrecta
+2025-01-27T20:38:09.011Z [ERROR]: La contraseña debe tener al menos 6 caracteres.
+2025-01-27T20:38:27.086Z [ERROR]: La contraseña es incorrecta
+2025-01-27T20:38:30.783Z [ERROR]: La contraseña debe tener al menos 6 caracteres.
+2025-01-27T20:39:44.959Z [ERROR]: La contraseña es incorrecta
+2025-01-27T20:39:46.922Z [ERROR]: La contraseña debe tener al menos 6 caracteres.
+2025-01-27T20:50:01.125Z [ERROR]: La contraseña debe tener al menos 6 caracteres.
+2025-01-27T21:09:14.560Z [ERROR]: La contraseña debe tener al menos 6 caracteres.
+2025-01-27T21:10:04.516Z [ERROR]: El campo de correo electrónico no puede estar vacío.
+2025-01-27T21:10:06.067Z [ERROR]: El campo de correo electrónico no puede estar vacío.
+2025-01-27T21:46:57.840Z [ERROR]: La contraseña debe tener al menos 6 caracteres.
+2025-01-27T21:47:27.906Z [ERROR]: La contraseña debe tener al menos 6 caracteres.
+2025-01-27T21:47:34.415Z [ERROR]: La contraseña debe tener al menos 6 caracteres.
+2025-01-27T21:47:42.665Z [ERROR]: El campo de contraseña no puede estar vacío.
+2025-01-27T21:47:45.815Z [ERROR]: La contraseña debe tener al menos 6 caracteres.
+2025-01-27T21:47:57.767Z [ERROR]: La contraseña debe tener al menos 6 caracteres.
+2025-01-27T22:32:42.096Z [ERROR]: La contraseña debe tener al menos 6 caracteres.
+2025-01-27T22:32:46.980Z [ERROR]: La contraseña debe tener al menos 6 caracteres.
+2025-01-27T22:32:47.707Z [ERROR]: La contraseña debe tener al menos 6 caracteres.
+2025-01-27T22:32:47.804Z [ERROR]: La contraseña debe tener al menos 6 caracteres.
+2025-01-27T22:32:49.257Z [ERROR]: El email no se encuentra registrado
+2025-01-27T22:41:45.141Z [ERROR]: El email no se encuentra registrado
+2025-01-27T22:41:51.017Z [ERROR]: La contraseña es incorrecta
+2025-01-27T22:41:53.087Z [ERROR]: La contraseña debe tener al menos 6 caracteres.
+2025-01-27T22:46:47.897Z [ERROR]: El campo de correo electrónico no puede estar vacío.
+2025-01-27T22:46:52.551Z [ERROR]: El campo de correo electrónico no puede estar vacío.
+2025-01-27T22:51:21.735Z [ERROR]: La contraseña debe tener al menos 6 caracteres.
+2025-01-27T22:51:30.483Z [ERROR]: El email no se encuentra registrado
+2025-01-28T02:24:12.921Z [ERROR]: La contraseña debe tener al menos 6 caracteres.
+2025-01-28T02:24:20.724Z [ERROR]: La contraseña es incorrecta
+2025-01-28T02:24:21.109Z [ERROR]: La contraseña es incorrecta
+2025-01-28T02:54:06.862Z [ERROR]: El campo de contraseña no puede estar vacío.
+2025-01-28T15:51:48.574Z [ERROR]: El campo de correo electrónico no puede estar vacío.
+2025-01-28T15:51:55.901Z [ERROR]: La contraseña es incorrecta
+2025-01-28T15:51:57.187Z [ERROR]: La contraseña es incorrecta
+2025-01-28T15:51:59.807Z [ERROR]: La contraseña debe tener al menos 6 caracteres.
+2025-01-28T17:17:37.051Z [ERROR]: El campo de correo electrónico no puede estar vacío.
+2025-01-28T17:40:47.233Z [ERROR]: El campo de correo electrónico no puede estar vacío.
+2025-01-28T17:44:52.687Z [ERROR]: La contraseña es incorrecta
+2025-01-28T17:54:43.655Z [ERROR]: La contraseña es incorrecta
+2025-01-28T21:10:04.740Z [ERROR]: La contraseña es incorrecta
+2025-01-28T21:10:07.882Z [ERROR]: La contraseña debe tener al menos 6 caracteres.
+2025-01-29T19:15:52.651Z [ERROR]: La contraseña es incorrecta
+2025-01-29T19:23:52.470Z [ERROR]: El email no se encuentra registrado
+2025-01-29T19:24:02.946Z [ERROR]: El email no se encuentra registrado
+2025-01-29T19:24:53.516Z [ERROR]: El email no se encuentra registrado
+2025-01-29T19:46:50.580Z [ERROR]: La contraseña es incorrecta
+2025-01-30T03:54:11.995Z [ERROR]: El email no se encuentra registrado
+2025-01-30T04:11:53.679Z [ERROR]: El email no se encuentra registrado
+2025-01-30T04:11:59.115Z [ERROR]: El email no se encuentra registrado
+2025-01-30T04:12:02.439Z [ERROR]: La contraseña es incorrecta
+2025-01-30T04:12:06.040Z [ERROR]: La contraseña debe tener al menos 6 caracteres.
+2025-01-30T04:39:33.289Z [ERROR]: El email no se encuentra registrado
+2025-01-30T04:39:46.382Z [ERROR]: La contraseña debe tener al menos 6 caracteres.
+2025-01-30T04:39:49.043Z [ERROR]: La contraseña es incorrecta
+2025-02-06T01:53:16.715Z [ERROR]: El email ya está registrado
+2025-02-06T01:53:26.091Z [ERROR]: la sintaxis de entrada no es válida para tipo timestamp with time zone: «Invalid date»
+2025-02-06T01:53:46.640Z [ERROR]: El email ya está registrado
+2025-02-06T01:54:54.135Z [ERROR]: El email ya está registrado
+2025-02-06T01:55:34.475Z [ERROR]: la sintaxis de entrada no es válida para tipo timestamp with time zone: «Invalid date»
+2025-02-06T01:55:44.244Z [ERROR]: la sintaxis de entrada no es válida para tipo timestamp with time zone: «Invalid date»
+2025-02-06T02:03:56.828Z [ERROR]: la sintaxis de entrada no es válida para tipo timestamp with time zone: «Invalid date»
+2025-02-06T02:04:20.197Z [ERROR]: la sintaxis de entrada no es válida para tipo timestamp with time zone: «Invalid date»
+2025-02-06T02:06:25.970Z [ERROR]: la sintaxis de entrada no es válida para tipo bigint: «dsadas»
+2025-02-06T02:06:35.272Z [ERROR]: la sintaxis de entrada no es válida para tipo bigint: «dsadas»
+2025-02-06T02:15:11.164Z [ERROR]: la sintaxis de entrada no es válida para tipo timestamp with time zone: «Invalid date»
+2025-02-06T02:15:11.168Z [ERROR]: la sintaxis de entrada no es válida para tipo timestamp with time zone: «Invalid date»
+2025-02-06T02:57:12.393Z [ERROR]: El email ya está registrado por otro estudiante
+2025-02-06T02:57:21.439Z [ERROR]: El email ya está registrado por otro estudiante
+2025-02-06T03:48:18.779Z [ERROR]: la sintaxis de entrada no es válida para tipo boolean: «Escuela 5»
+2025-02-06T03:48:31.364Z [ERROR]: la sintaxis de entrada no es válida para tipo boolean: «Escuela 5»
+2025-02-06T03:48:41.255Z [ERROR]: la sintaxis de entrada no es válida para tipo boolean: «»
+2025-02-06T05:04:23.027Z [ERROR]: la sintaxis de entrada no es válida para tipo integer: «Escuela 3»
+2025-02-06T05:10:12.497Z [ERROR]: El email ya está registrado
+2025-02-06T05:10:12.499Z [ERROR]: El email ya está registrado
+2025-02-06T05:44:56.910Z [ERROR]: El email ya está registrado
+2025-02-06T05:45:08.838Z [ERROR]: la sintaxis de entrada no es válida para tipo boolean: «Sí»
+2025-02-06T05:45:28.099Z [ERROR]: la sintaxis de entrada no es válida para tipo boolean: «Sí»
+2025-02-06T05:45:46.123Z [ERROR]: El email ya está registrado
+2025-02-06T06:22:28.078Z [ERROR]: El email ya está registrado
+2025-02-06T06:47:00.823Z [ERROR]: El email ya está registrado
+2025-02-06T06:47:06.460Z [ERROR]: la sintaxis de entrada no es válida para tipo boolean: «Sí»
+2025-02-06T06:48:20.303Z [ERROR]: El email ya está registrado
+2025-02-06T06:49:02.166Z [ERROR]: la sintaxis de entrada no es válida para tipo integer: «La Granja»
+2025-02-06T06:50:03.445Z [ERROR]: la sintaxis de entrada no es válida para tipo integer: «La Granja»
+2025-02-06T06:50:03.448Z [ERROR]: la sintaxis de entrada no es válida para tipo integer: «La Granja»
+2025-02-06T06:50:11.614Z [ERROR]: la sintaxis de entrada no es válida para tipo integer: «Ñuñoa»
+2025-02-06T06:51:00.148Z [ERROR]: la sintaxis de entrada no es válida para tipo integer: «Ñuñoa»
+2025-02-06T06:51:13.601Z [ERROR]: El email ya está registrado
+2025-02-06T06:51:20.817Z [ERROR]: la sintaxis de entrada no es válida para tipo integer: «Ñuñoa»
+2025-02-06T06:51:47.558Z [ERROR]: la sintaxis de entrada no es válida para tipo integer: «Ñuñoa»
+2025-02-06T06:51:51.762Z [ERROR]: la sintaxis de entrada no es válida para tipo integer: «»
+2025-02-06T07:02:08.411Z [ERROR]: la sintaxis de entrada no es válida para tipo integer: «La Granja»
+2025-02-06T07:02:30.683Z [ERROR]: la sintaxis de entrada no es válida para tipo integer: «Pudahuel»
+2025-02-06T07:05:25.203Z [ERROR]: la sintaxis de entrada no es válida para tipo boolean: «Sí»
+2025-02-06T07:05:42.154Z [ERROR]: la sintaxis de entrada no es válida para tipo boolean: «Sí»
+2025-02-06T07:06:53.155Z [ERROR]: la sintaxis de entrada no es válida para tipo integer: «Buín»
+2025-02-06T07:08:58.436Z [ERROR]: la sintaxis de entrada no es válida para tipo integer: «Pudahuel»
+2025-02-06T07:11:01.119Z [ERROR]: El email ya está registrado
+2025-02-06T07:11:07.122Z [ERROR]: la sintaxis de entrada no es válida para tipo integer: «Quinta Normal»
+2025-02-06T07:11:21.923Z [ERROR]: la sintaxis de entrada no es válida para tipo integer: «Quinta Normal»
+2025-02-06T07:11:21.925Z [ERROR]: la sintaxis de entrada no es válida para tipo integer: «Quinta Normal»
+2025-02-06T07:11:26.253Z [ERROR]: la sintaxis de entrada no es válida para tipo integer: «Buín»
+2025-02-06T07:20:21.522Z [ERROR]: El email ya está registrado
+2025-02-06T07:20:26.723Z [ERROR]: la sintaxis de entrada no es válida para tipo integer: «Ñuñoa»
+2025-02-08T19:49:02.232Z [ERROR]: El email ya está registrado
+2025-02-08T19:49:30.210Z [ERROR]: El email ya está registrado
+2025-02-08T19:53:37.757Z [ERROR]: El email ya está registrado
+2025-02-08T19:54:11.030Z [ERROR]: la sintaxis de entrada no es válida para tipo integer: «Buín»
+2025-02-08T20:04:48.548Z [ERROR]: la sintaxis de entrada no es válida para tipo integer: «La Granja»
+2025-02-08T20:08:00.645Z [ERROR]: la sintaxis de entrada no es válida para tipo integer: «La Granja»
+2025-02-08T20:16:40.241Z [ERROR]: la sintaxis de entrada no es válida para tipo boolean: «Sí»
+2025-02-08T20:18:42.673Z [ERROR]: la sintaxis de entrada no es válida para tipo boolean: «Sí»
+2025-02-08T20:19:12.356Z [ERROR]: El email ya está registrado
+2025-02-08T20:19:22.338Z [ERROR]: la sintaxis de entrada no es válida para tipo boolean: «Sí»
+2025-02-08T20:30:25.029Z [ERROR]: la sintaxis de entrada no es válida para tipo integer: «Buín»
+2025-02-08T20:31:58.610Z [ERROR]: la sintaxis de entrada no es válida para tipo integer: «Buín»
+2025-02-08T20:33:03.382Z [ERROR]: la sintaxis de entrada no es válida para tipo integer: «»
+2025-02-08T20:33:23.946Z [ERROR]: El email ya está registrado
+2025-02-08T20:33:31.591Z [ERROR]: la sintaxis de entrada no es válida para tipo integer: «»
+2025-02-08T20:35:14.227Z [ERROR]: El email ya está registrado
+2025-02-08T20:35:25.124Z [ERROR]: la sintaxis de entrada no es válida para tipo integer: «»
+2025-02-08T20:40:37.247Z [ERROR]: El email ya está registrado
+2025-02-08T20:40:43.007Z [ERROR]: la sintaxis de entrada no es válida para tipo integer: «Buín»
+2025-02-08T20:44:20.635Z [ERROR]: la sintaxis de entrada no es válida para tipo integer: «Buín»
+2025-02-08T20:45:09.236Z [ERROR]: la sintaxis de entrada no es válida para tipo integer: «Buín»
+2025-02-08T20:47:04.211Z [ERROR]: la sintaxis de entrada no es válida para tipo integer: «Buín»
+2025-02-08T21:01:55.229Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-08T21:01:55.263Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-08T21:02:02.990Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-08T21:02:03.024Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-08T21:02:09.289Z [ERROR]: El email no se encuentra registrado
+2025-02-08T21:02:17.242Z [ERROR]: El email no se encuentra registrado
+2025-02-08T21:08:15.235Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-08T21:08:15.248Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-08T21:08:25.456Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-08T21:08:25.486Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-08T21:08:56.472Z [ERROR]: la sintaxis de entrada no es válida para tipo boolean: «Sí»
+2025-02-08T21:09:31.549Z [ERROR]: la sintaxis de entrada no es válida para tipo boolean: «Sí»
+2025-02-08T21:09:31.552Z [ERROR]: la sintaxis de entrada no es válida para tipo boolean: «Sí»
+2025-02-08T21:19:53.825Z [ERROR]: El email ya está registrado
+2025-02-08T21:53:06.587Z [ERROR]: El email ya está registrado
+2025-02-08T21:53:12.234Z [ERROR]: El email ya está registrado
+2025-02-08T21:53:15.856Z [ERROR]: El email ya está registrado
+2025-02-08T21:58:22.011Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-08T21:58:22.024Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-10T04:25:56.664Z [ERROR]: El ID de estudiante no es válido
+2025-02-10T04:25:56.689Z [ERROR]: El ID de estudiante no es válido
+2025-02-10T04:49:52.136Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-10T04:49:52.149Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-10T14:04:49.463Z [ERROR]: El email ya está registrado
+2025-02-10T15:29:02.712Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-10T15:29:02.727Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-10T16:03:05.053Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-10T16:03:05.068Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-10T16:07:10.088Z [ERROR]: la sintaxis de entrada no es válida para tipo boolean: «Sí»
+2025-02-10T16:11:14.134Z [ERROR]: la sintaxis de entrada no es válida para tipo boolean: «Sí»
+2025-02-10T16:11:19.636Z [ERROR]: la sintaxis de entrada no es válida para tipo boolean: «Sí»
+2025-02-10T16:29:30.015Z [ERROR]: la sintaxis de entrada no es válida para tipo boolean: «Sí»
+2025-02-10T17:12:21.661Z [ERROR]: El campo de contraseña no puede estar vacío.
+2025-02-10T17:15:31.954Z [ERROR]: la sintaxis de entrada no es válida para tipo boolean: «Sí»
+2025-02-10T17:15:33.133Z [ERROR]: la sintaxis de entrada no es válida para tipo boolean: «Sí»
+2025-02-10T17:16:19.442Z [ERROR]: la sintaxis de entrada no es válida para tipo boolean: «Sí»
+2025-02-10T17:16:20.526Z [ERROR]: la sintaxis de entrada no es válida para tipo boolean: «Sí»
+2025-02-10T17:27:18.317Z [ERROR]: la sintaxis de entrada no es válida para tipo boolean: «Sí»
+2025-02-10T17:27:23.463Z [ERROR]: la sintaxis de entrada no es válida para tipo boolean: «Sí»
+2025-02-10T19:26:43.213Z [ERROR]: El email ya está registrado
+2025-02-10T19:26:44.901Z [ERROR]: El email ya está registrado
+2025-02-18T13:28:34.852Z [ERROR]: El email ya está registrado
+2025-02-18T16:57:55.743Z [ERROR]: El email ya está registrado
+2025-02-18T16:58:05.852Z [ERROR]: la sintaxis de entrada no es válida para tipo timestamp with time zone: «Invalid date»
+2025-02-18T16:58:18.662Z [ERROR]: la sintaxis de entrada no es válida para tipo timestamp with time zone: «Invalid date»
+2025-02-18T16:58:32.816Z [ERROR]: la sintaxis de entrada no es válida para tipo timestamp with time zone: «Invalid date»
+2025-02-18T17:28:48.545Z [ERROR]: la sintaxis de entrada no es válida para tipo timestamp with time zone: «Invalid date»
+2025-02-18T17:29:17.063Z [ERROR]: El email ya está registrado
+2025-02-18T17:29:22.445Z [ERROR]: la sintaxis de entrada no es válida para tipo timestamp with time zone: «Invalid date»
+2025-02-18T17:48:42.049Z [ERROR]: la sintaxis de entrada no es válida para tipo timestamp with time zone: «Invalid date»
+2025-02-18T17:51:22.397Z [ERROR]: la sintaxis de entrada no es válida para tipo boolean: «Sí»
+2025-02-18T17:51:26.827Z [ERROR]: la sintaxis de entrada no es válida para tipo boolean: «Sí»
+2025-02-18T17:55:42.647Z [ERROR]: la sintaxis de entrada no es válida para tipo timestamp with time zone: «Invalid date»
+2025-02-18T18:02:49.466Z [ERROR]: la sintaxis de entrada no es válida para tipo timestamp with time zone: «Invalid date»
+2025-02-18T18:02:55.719Z [ERROR]: la sintaxis de entrada no es válida para tipo timestamp with time zone: «Invalid date»
+2025-02-18T18:28:02.660Z [ERROR]: la sintaxis de entrada no es válida para tipo timestamp with time zone: «Invalid date»
+2025-02-18T18:30:15.233Z [ERROR]: la sintaxis de entrada no es válida para tipo timestamp with time zone: «Invalid date»
+2025-02-18T18:35:12.377Z [ERROR]: la sintaxis de entrada no es válida para tipo timestamp with time zone: «Invalid date»
+2025-02-18T18:38:57.036Z [ERROR]: la sintaxis de entrada no es válida para tipo timestamp with time zone: «Invalid date»
+2025-02-18T18:39:49.863Z [ERROR]: la sintaxis de entrada no es válida para tipo timestamp with time zone: «Invalid date»
+2025-02-18T18:40:38.628Z [ERROR]: la sintaxis de entrada no es válida para tipo boolean: «SÍ»
+2025-02-18T18:40:39.091Z [ERROR]: la sintaxis de entrada no es válida para tipo boolean: «SÍ»
+2025-02-18T18:46:50.638Z [ERROR]: la sintaxis de entrada no es válida para tipo timestamp with time zone: «Invalid date»
+2025-02-18T21:12:04.808Z [ERROR]: El email ya está registrado
+2025-02-18T21:40:46.486Z [ERROR]: El email ya está registrado
+2025-02-18T21:40:58.174Z [ERROR]: El email ya está registrado
+2025-02-18T22:50:12.221Z [ERROR]: la sintaxis de entrada no es válida para tipo timestamp with time zone: «Invalid date»
+2025-02-18T22:50:35.142Z [ERROR]: la sintaxis de entrada no es válida para tipo timestamp with time zone: «Invalid date»
+2025-02-18T23:34:05.580Z [ERROR]: la sintaxis de entrada no es válida para tipo timestamp with time zone: «Invalid date»
+2025-02-18T23:37:27.813Z [ERROR]: la sintaxis de entrada no es válida para tipo timestamp with time zone: «Invalid date»
+2025-02-18T23:37:27.857Z [ERROR]: la sintaxis de entrada no es válida para tipo timestamp with time zone: «Invalid date»
+2025-02-18T23:37:31.055Z [ERROR]: la sintaxis de entrada no es válida para tipo timestamp with time zone: «Invalid date»
+2025-02-18T23:38:13.188Z [ERROR]: la sintaxis de entrada no es válida para tipo timestamp with time zone: «Invalid date»
+2025-02-18T23:38:20.442Z [ERROR]: la sintaxis de entrada no es válida para tipo timestamp with time zone: «Invalid date»
+2025-02-18T23:39:39.461Z [ERROR]: la sintaxis de entrada no es válida para tipo timestamp with time zone: «Invalid date»
+2025-02-18T23:41:02.623Z [ERROR]: la sintaxis de entrada no es válida para tipo timestamp with time zone: «Invalid date»
+2025-02-18T23:43:36.641Z [ERROR]: la sintaxis de entrada no es válida para tipo timestamp with time zone: «Invalid date»
+2025-02-18T23:45:19.279Z [ERROR]: la sintaxis de entrada no es válida para tipo timestamp with time zone: «Invalid date»
+2025-02-18T23:47:17.035Z [ERROR]: la sintaxis de entrada no es válida para tipo timestamp with time zone: «Invalid date»
+2025-02-18T23:47:29.171Z [ERROR]: la sintaxis de entrada no es válida para tipo timestamp with time zone: «Invalid date»
+2025-02-18T23:47:53.922Z [ERROR]: la sintaxis de entrada no es válida para tipo timestamp with time zone: «Invalid date»
+2025-02-18T23:48:32.834Z [ERROR]: la sintaxis de entrada no es válida para tipo timestamp with time zone: «Invalid date»
+2025-02-18T23:52:32.665Z [ERROR]: la sintaxis de entrada no es válida para tipo timestamp with time zone: «Invalid date»
+2025-02-20T17:09:55.593Z [ERROR]: la sintaxis de entrada no es válida para tipo timestamp with time zone: «Invalid date»
+2025-02-20T17:53:29.863Z [ERROR]: la sintaxis de entrada no es válida para tipo timestamp with time zone: «Invalid date»
+2025-02-20T18:01:26.857Z [ERROR]: la sintaxis de entrada no es válida para tipo timestamp with time zone: «Invalid date»
+2025-02-20T18:02:40.783Z [ERROR]: la sintaxis de entrada no es válida para tipo timestamp with time zone: «Invalid date»
+2025-02-20T18:02:57.556Z [ERROR]: la sintaxis de entrada no es válida para tipo timestamp with time zone: «Invalid date»
+2025-02-20T18:05:06.856Z [ERROR]: la sintaxis de entrada no es válida para tipo timestamp with time zone: «Invalid date»
+2025-02-20T18:05:06.860Z [ERROR]: la sintaxis de entrada no es válida para tipo timestamp with time zone: «Invalid date»
+2025-02-20T18:08:08.630Z [ERROR]: la sintaxis de entrada no es válida para tipo timestamp with time zone: «Invalid date»
+2025-02-20T18:08:44.306Z [ERROR]: El email ya está registrado
+2025-02-20T18:16:09.815Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-20T18:16:09.825Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-20T18:16:21.461Z [ERROR]: la sintaxis de entrada no es válida para tipo timestamp with time zone: «Invalid date»
+2025-02-20T18:16:50.685Z [ERROR]: la sintaxis de entrada no es válida para tipo timestamp with time zone: «Invalid date»
+2025-02-20T18:16:53.696Z [ERROR]: la sintaxis de entrada no es válida para tipo timestamp with time zone: «Invalid date»
+2025-02-20T18:18:01.225Z [ERROR]: la sintaxis de entrada no es válida para tipo boolean: «Sí»
+2025-02-20T18:28:23.727Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-20T18:28:23.740Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-20T18:28:37.582Z [ERROR]: la sintaxis de entrada no es válida para tipo timestamp with time zone: «Invalid date»
+2025-02-20T18:28:45.608Z [ERROR]: la sintaxis de entrada no es válida para tipo timestamp with time zone: «Invalid date»
+2025-02-20T18:28:58.755Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-20T18:28:58.770Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-20T18:40:01.944Z [ERROR]: El email ya está registrado
+2025-02-20T18:41:10.171Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-20T18:41:10.180Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-20T19:45:26.337Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-20T19:45:26.350Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-20T20:22:20.870Z [ERROR]: El ID de estudiante no es válido
+2025-02-20T20:22:20.884Z [ERROR]: El ID de estudiante no es válido
+2025-02-20T20:22:22.824Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-20T20:22:22.844Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-20T20:22:54.582Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-20T20:22:54.595Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-20T20:34:17.083Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-20T20:34:17.092Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-20T20:34:20.220Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-20T20:34:20.248Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-20T20:34:45.462Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-20T20:34:45.470Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-20T20:56:14.194Z [ERROR]: El email ya está registrado
+2025-02-20T20:59:35.955Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-20T20:59:35.971Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-20T22:05:57.441Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-20T22:05:57.451Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-20T22:08:45.899Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-20T22:08:45.911Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-20T22:09:23.561Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-20T22:09:23.573Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-20T22:10:22.107Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-20T22:10:22.119Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-20T22:33:15.837Z [ERROR]: El email ya está registrado
+2025-02-20T22:33:40.478Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-20T22:33:40.494Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-20T22:56:48.679Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-20T22:56:48.691Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-20T23:21:22.331Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-20T23:21:22.345Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-20T23:21:33.948Z [ERROR]: El email ya está registrado
+2025-02-20T23:21:41.141Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-20T23:21:41.164Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-21T00:29:27.503Z [ERROR]: El email ya está registrado
+2025-02-21T00:30:08.988Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-21T00:30:08.997Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-21T00:31:36.487Z [ERROR]: El ID de estudiante no es válido
+2025-02-21T00:31:36.502Z [ERROR]: El ID de estudiante no es válido
+2025-02-21T00:31:41.121Z [ERROR]: El ID de estudiante no es válido
+2025-02-21T00:31:41.135Z [ERROR]: El ID de estudiante no es válido
+2025-02-21T00:33:08.996Z [ERROR]: El email ya está registrado
+2025-02-21T14:58:40.515Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-21T14:58:40.538Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-21T15:25:57.507Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-21T15:25:57.527Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-21T16:21:31.331Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-21T16:21:31.345Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-21T16:53:00.240Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-21T16:53:00.254Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-21T17:14:41.047Z [ERROR]: El email ya está registrado
+2025-02-21T17:14:48.467Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-21T17:14:48.480Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-21T17:14:49.584Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-21T17:14:49.613Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-21T17:14:53.602Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-21T17:14:53.616Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-21T17:14:55.527Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-21T17:14:55.549Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-21T17:15:21.490Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-21T17:15:21.503Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-21T17:15:22.964Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-21T17:15:22.982Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-21T17:15:41.853Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-21T17:15:41.865Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-21T17:18:19.164Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-21T17:18:19.174Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-21T17:21:15.085Z [ERROR]: El email ya está registrado
+2025-02-21T17:22:25.388Z [ERROR]: El email ya está registrado
+2025-02-21T17:22:33.211Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-21T17:22:33.223Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-21T17:22:44.528Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-21T17:22:44.540Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-21T17:23:09.420Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-21T17:23:09.430Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-21T17:23:32.828Z [ERROR]: El email ya está registrado
+2025-02-21T17:29:27.320Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-21T17:29:27.331Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-21T17:30:14.807Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-21T17:30:14.819Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-21T17:32:36.154Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-21T17:32:36.180Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-21T17:32:41.020Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-21T17:32:41.031Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-21T17:32:48.526Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-21T17:32:48.545Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-21T17:34:13.844Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-21T17:34:13.853Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-22T01:07:18.838Z [ERROR]: El ID de estudiante no es válido
+2025-02-22T01:07:18.904Z [ERROR]: El ID de estudiante no es válido
+2025-02-22T01:07:21.211Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-22T01:07:21.222Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-22T01:07:26.086Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-22T01:07:26.120Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-22T01:19:06.801Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-22T01:19:06.810Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-22T01:19:29.196Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-22T01:19:29.210Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-22T01:19:36.555Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-22T01:19:36.569Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-22T01:19:37.881Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-22T01:19:37.892Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-22T01:23:58.943Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-22T01:23:58.981Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-22T02:24:26.702Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-22T02:24:26.717Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-22T02:25:57.822Z [ERROR]: la sintaxis de entrada no es válida para tipo boolean: «Aún sin respuestas»
+2025-02-22T02:32:41.993Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-22T02:32:42.006Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-22T02:32:58.892Z [ERROR]: la sintaxis de entrada no es válida para tipo boolean: «Persona con documentación y matrícula firmada en escuela»
+2025-02-22T02:40:01.962Z [ERROR]: la sintaxis de entrada no es válida para tipo boolean: «Persona con documentación y matrícula firmada en escuela»
+2025-02-22T02:41:05.765Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-22T02:41:05.846Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-22T02:41:10.156Z [ERROR]: la sintaxis de entrada no es válida para tipo boolean: «Persona con documentación y matrícula firmada en escuela»
+2025-02-22T02:42:12.298Z [ERROR]: la sintaxis de entrada no es válida para tipo boolean: «Persona con documentación y matrícula firmada en escuela»
+2025-02-22T02:43:45.238Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-22T02:43:45.256Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-22T03:29:20.762Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-22T03:29:20.776Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-22T03:36:49.501Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-22T03:36:49.515Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-22T03:51:15.913Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-22T03:51:15.925Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-22T03:51:18.087Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-22T03:51:18.109Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-22T03:51:20.296Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-22T03:51:20.313Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-22T03:54:41.088Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-22T03:54:41.105Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-22T04:19:45.175Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-22T04:19:45.187Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-22T04:40:11.868Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-22T04:40:11.877Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-22T04:46:29.897Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-22T04:46:29.907Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-22T04:50:57.736Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-22T04:50:57.747Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-22T04:51:59.974Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-22T04:51:59.987Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-22T04:54:43.636Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-22T04:54:43.647Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-22T04:56:58.640Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-22T04:56:58.649Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-22T05:00:21.505Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-22T05:00:21.514Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-22T05:05:11.567Z [ERROR]: El email ya está registrado
+2025-02-22T15:43:31.220Z [ERROR]: El ID de estudiante no es válido
+2025-02-22T15:43:31.278Z [ERROR]: El ID de estudiante no es válido
+2025-02-22T15:43:34.381Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-22T15:43:34.390Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-22T15:44:56.412Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-22T15:44:56.434Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-22T15:48:17.900Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-22T15:48:18.137Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-22T15:54:35.072Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-22T15:54:35.101Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-22T15:54:57.732Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-22T15:54:57.749Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-22T16:04:12.612Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-22T16:04:12.627Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-22T16:35:54.852Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-22T16:35:54.864Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-22T16:42:38.641Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-22T16:42:38.665Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-22T16:47:08.140Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-22T16:47:08.150Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-24T21:56:42.877Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-24T21:56:42.921Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-25T03:20:56.277Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-25T03:20:56.297Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-25T16:02:42.744Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-25T16:02:42.765Z [ERROR]: No se encontraron estudiantes registrados
+2025-02-25T18:11:10.281Z [ERROR]: El email ya está registrado
+2025-03-01T01:32:49.468Z [ERROR]: No se encontraron estudiantes registrados
+2025-03-01T01:32:49.489Z [ERROR]: No se encontraron estudiantes registrados
+2025-03-01T02:48:29.621Z [ERROR]: El email ya está registrado
+2025-03-01T03:03:43.608Z [ERROR]: El email ya está registrado
+2025-03-02T02:09:32.633Z [ERROR]: El email ya está registrado
+2025-03-10T20:54:53.874Z [ERROR]: El email ya está registrado - POST /api/students
+2025-03-10T21:19:34.288Z [ERROR]: El email ya está registrado - POST /api/students
+2025-03-10T21:31:39.585Z [ERROR]: El email ya está registrado - POST /api/students
+2025-03-10T21:37:02.998Z [ERROR]: El email ya está registrado - POST /api/students
+2025-03-10T21:37:03.019Z [ERROR]: El email ya está registrado - POST /api/students
+2025-03-10T22:29:43.771Z [ERROR]: string violation: call1 cannot be an array or an object,
+string violation: call2 cannot be an array or an object,
+string violation: call3 cannot be an array or an object - POST /api/students
+2025-03-10T22:30:34.859Z [ERROR]: string violation: call1 cannot be an array or an object,
+string violation: call2 cannot be an array or an object,
+string violation: call3 cannot be an array or an object - POST /api/students
+2025-03-10T22:32:19.294Z [ERROR]: string violation: call1 cannot be an array or an object,
+string violation: call2 cannot be an array or an object,
+string violation: call3 cannot be an array or an object - POST /api/students
+2025-03-10T22:41:54.713Z [ERROR]: El email ya está registrado - POST /api/students
+2025-03-10T22:54:11.067Z [ERROR]: El email ya está registrado - POST /api/students
+2025-03-11T00:28:52.035Z [ERROR]: Target key "call1" is not suitable for a nested value. (It is in use as non-object. Set `force` to `true` to override.) - PUT /api/students/2f202a1f-9997-4a7b-bcc2-da27675ce89b
+2025-03-11T00:33:03.270Z [ERROR]: El email ya está registrado - POST /api/students
+2025-03-11T00:56:43.638Z [ERROR]: El email ya está registrado - POST /api/students
+2025-03-11T02:05:33.795Z [ERROR]: El email ya está registrado por otro estudiante - PUT /api/students/f19e2ed1-f19e-437e-8d51-25765ec7dad4
+2025-03-11T02:34:52.579Z [ERROR]: El ID de estudiante no es válido - GET /api/students/b376daf1-2071-4807-9132-131319392647
+2025-03-11T02:34:52.589Z [ERROR]: El ID de estudiante no es válido - GET /api/students/b376daf1-2071-4807-9132-131319392647
+2025-03-11T02:35:01.057Z [ERROR]: El ID de estudiante no es válido - GET /api/students/b376daf1-2071-4807-9132-131319392647
+2025-03-11T02:35:01.065Z [ERROR]: El ID de estudiante no es válido - GET /api/students/b376daf1-2071-4807-9132-131319392647
+2025-03-11T02:35:03.123Z [ERROR]: El ID de estudiante no es válido - GET /api/students/b376daf1-2071-4807-9132-131319392647
+2025-03-11T02:35:03.131Z [ERROR]: El ID de estudiante no es válido - GET /api/students/b376daf1-2071-4807-9132-131319392647
+2025-03-11T02:35:10.118Z [ERROR]: El ID de estudiante no es válido - GET /api/students/b376daf1-2071-4807-9132-131319392647
+2025-03-11T02:35:10.128Z [ERROR]: El ID de estudiante no es válido - GET /api/students/b376daf1-2071-4807-9132-131319392647
+2025-03-11T02:35:16.170Z [ERROR]: El ID de estudiante no es válido - GET /api/students/b376daf1-2071-4807-9132-131319392647
+2025-03-11T02:35:16.180Z [ERROR]: El ID de estudiante no es válido - GET /api/students/b376daf1-2071-4807-9132-131319392647
+2025-03-11T02:35:27.154Z [ERROR]: El ID de estudiante no es válido - GET /api/students/b376daf1-2071-4807-9132-131319392647
+2025-03-11T02:35:27.161Z [ERROR]: El ID de estudiante no es válido - GET /api/students/b376daf1-2071-4807-9132-131319392647
+2025-03-11T02:58:47.543Z [ERROR]: El email ya está registrado - POST /api/students
+2025-03-11T03:05:12.316Z [ERROR]: Target key "call1" is not suitable for a nested value. (It is in use as non-object. Set `force` to `true` to override.) - PUT /api/students/0ef4c3a8-2202-429e-965c-a8a8128629f3
+2025-03-11T03:06:22.758Z [ERROR]: Target key "call1" is not suitable for a nested value. (It is in use as non-object. Set `force` to `true` to override.) - PUT /api/students/0ef4c3a8-2202-429e-965c-a8a8128629f3
+2025-03-11T03:07:39.504Z [ERROR]: Target key "call1" is not suitable for a nested value. (It is in use as non-object. Set `force` to `true` to override.) - PUT /api/students/375cd6f7-c614-45e8-bc0b-e58ccc8ded64
+2025-03-11T03:10:57.928Z [ERROR]: El email ya está registrado - POST /api/students
+2025-03-11T03:27:19.096Z [ERROR]: string violation: call1 cannot be an array or an object,
+string violation: call2 cannot be an array or an object,
+string violation: call3 cannot be an array or an object - POST /api/students
+2025-03-11T03:27:36.268Z [ERROR]: string violation: call1 cannot be an array or an object,
+string violation: call2 cannot be an array or an object,
+string violation: call3 cannot be an array or an object - POST /api/students
+2025-03-11T03:28:03.305Z [ERROR]: string violation: call1 cannot be an array or an object,
+string violation: call2 cannot be an array or an object,
+string violation: call3 cannot be an array or an object - POST /api/students
+2025-03-11T03:29:36.845Z [ERROR]: string violation: call1 cannot be an array or an object,
+string violation: call2 cannot be an array or an object,
+string violation: call3 cannot be an array or an object - POST /api/students
+2025-03-11T03:30:12.081Z [ERROR]: string violation: call1 cannot be an array or an object,
+string violation: call2 cannot be an array or an object,
+string violation: call3 cannot be an array or an object - POST /api/students
+2025-03-11T03:30:13.042Z [ERROR]: string violation: call1 cannot be an array or an object,
+string violation: call2 cannot be an array or an object,
+string violation: call3 cannot be an array or an object - POST /api/students
+2025-03-11T03:32:23.146Z [ERROR]: string violation: call1 cannot be an array or an object,
+string violation: call2 cannot be an array or an object,
+string violation: call3 cannot be an array or an object - POST /api/students
+2025-03-11T03:32:38.616Z [ERROR]: string violation: call1 cannot be an array or an object,
+string violation: call2 cannot be an array or an object,
+string violation: call3 cannot be an array or an object - POST /api/students
+2025-03-11T03:48:24.624Z [ERROR]: string violation: call1 cannot be an array or an object,
+string violation: call2 cannot be an array or an object,
+string violation: call3 cannot be an array or an object - POST /api/students
+2025-03-11T03:48:31.740Z [ERROR]: string violation: call1 cannot be an array or an object,
+string violation: call2 cannot be an array or an object,
+string violation: call3 cannot be an array or an object - POST /api/students
+2025-03-11T03:49:35.933Z [ERROR]: string violation: call1 cannot be an array or an object,
+string violation: call2 cannot be an array or an object,
+string violation: call3 cannot be an array or an object - POST /api/students
+2025-03-11T03:50:06.403Z [ERROR]: string violation: call1 cannot be an array or an object,
+string violation: call2 cannot be an array or an object,
+string violation: call3 cannot be an array or an object - POST /api/students
+2025-03-11T03:53:46.272Z [ERROR]: string violation: call1 cannot be an array or an object,
+string violation: call2 cannot be an array or an object,
+string violation: call3 cannot be an array or an object - PUT /api/students/375cd6f7-c614-45e8-bc0b-e58ccc8ded64
+2025-03-11T03:54:42.354Z [ERROR]: string violation: call1 cannot be an array or an object,
+string violation: call2 cannot be an array or an object,
+string violation: call3 cannot be an array or an object - PUT /api/students/375cd6f7-c614-45e8-bc0b-e58ccc8ded64
+2025-03-11T03:56:16.991Z [ERROR]: string violation: call1 cannot be an array or an object,
+string violation: call2 cannot be an array or an object,
+string violation: call3 cannot be an array or an object - POST /api/students
+2025-03-11T03:58:14.466Z [ERROR]: El email ya está registrado - POST /api/students
+2025-03-11T04:04:46.711Z [ERROR]: string violation: call1 cannot be an array or an object,
+string violation: call2 cannot be an array or an object,
+string violation: call3 cannot be an array or an object - POST /api/students
+2025-03-11T04:04:56.071Z [ERROR]: string violation: call1 cannot be an array or an object,
+string violation: call2 cannot be an array or an object,
+string violation: call3 cannot be an array or an object - POST /api/students
+2025-03-11T04:20:07.933Z [ERROR]: string violation: call1 cannot be an array or an object,
+string violation: call2 cannot be an array or an object,
+string violation: call3 cannot be an array or an object - POST /api/students
+2025-03-11T04:21:50.856Z [ERROR]: El nombre es obligatorio - POST /api/students
+2025-03-11T04:21:57.482Z [ERROR]: El nombre es obligatorio - POST /api/students
+2025-03-11T04:38:37.828Z [ERROR]: El nombre es obligatorio - POST /api/students
+2025-03-11T04:38:37.878Z [ERROR]: El nombre es obligatorio - POST /api/students
+2025-03-11T04:58:57.951Z [ERROR]: string violation: call1 cannot be an array or an object,
+string violation: call2 cannot be an array or an object,
+string violation: call3 cannot be an array or an object - POST /api/students
+2025-03-11T05:01:11.565Z [ERROR]: string violation: call1 cannot be an array or an object,
+string violation: call2 cannot be an array or an object,
+string violation: call3 cannot be an array or an object - POST /api/students
+2025-03-11T05:10:46.638Z [ERROR]: Validation error: Validation isUUID on id failed - POST /api/students
+2025-03-11T05:11:20.418Z [ERROR]: Validation error: Validation isUUID on id failed - POST /api/students
+2025-03-11T05:19:50.924Z [ERROR]: Validation error: Validation isUUID on id failed - POST /api/students
+2025-03-11T23:03:45.541Z [ERROR]: El email ya está registrado - POST /api/students
+2025-03-12T03:29:39.353Z [ERROR]: El email ya está registrado - POST /api/students
+2025-03-12T03:29:42.925Z [ERROR]: Validation error: Validation isUUID on id failed - POST /api/students
+2025-03-12T03:29:46.016Z [ERROR]: Validation error: Validation isUUID on id failed - POST /api/students
+2025-03-12T03:29:46.949Z [ERROR]: Validation error: Validation isUUID on id failed - POST /api/students
+2025-03-12T03:30:08.050Z [ERROR]: Validation error: Validation isUUID on id failed - POST /api/students
+2025-03-12T03:30:38.087Z [ERROR]: Validation error: Validation isUUID on id failed - POST /api/students
+2025-03-12T03:33:43.035Z [ERROR]: No se encontraron estudiantes registrados - GET /api/students
+2025-03-12T03:33:43.044Z [ERROR]: No se encontraron estudiantes registrados - GET /api/students
+2025-03-12T04:01:01.445Z [ERROR]: El email ya está registrado - POST /api/students
+2025-03-12T04:02:35.221Z [ERROR]: El ID de estudiante no es válido - GET /api/students/0d2f22ea-b42b-47f5-83cc-e5488702c850
+2025-03-12T04:02:35.234Z [ERROR]: El ID de estudiante no es válido - GET /api/students/0d2f22ea-b42b-47f5-83cc-e5488702c850
+2025-03-12T04:02:41.915Z [ERROR]: El ID de estudiante no es válido - GET /api/students/0d2f22ea-b42b-47f5-83cc-e5488702c850
+2025-03-12T04:02:41.934Z [ERROR]: El ID de estudiante no es válido - GET /api/students/0d2f22ea-b42b-47f5-83cc-e5488702c850
+2025-03-12T04:18:04.099Z [ERROR]: No se encontraron estudiantes registrados - GET /api/students
+2025-03-12T04:18:04.114Z [ERROR]: No se encontraron estudiantes registrados - GET /api/students
+2025-03-12T04:20:01.964Z [ERROR]: El ID de estudiante no es válido - GET /api/students/2888c0da-41e3-4843-a1fe-2925b4419c9d
+2025-03-12T04:20:01.969Z [ERROR]: El ID de estudiante no es válido - GET /api/students/2888c0da-41e3-4843-a1fe-2925b4419c9d
+2025-03-12T04:25:26.551Z [ERROR]: El ID de estudiante no es válido - GET /api/students/2888c0da-41e3-4843-a1fe-2925b4419c9d
+2025-03-12T04:25:26.560Z [ERROR]: El ID de estudiante no es válido - GET /api/students/2888c0da-41e3-4843-a1fe-2925b4419c9d
+2025-03-12T04:39:02.041Z [ERROR]: No se encontraron estudiantes registrados - GET /api/students
+2025-03-12T04:39:02.055Z [ERROR]: No se encontraron estudiantes registrados - GET /api/students
+2025-03-12T04:50:00.240Z [ERROR]: El email ya está registrado - POST /api/students
+2025-03-12T04:50:32.765Z [ERROR]: No se encontraron estudiantes registrados - GET /api/students
+2025-03-12T04:50:32.772Z [ERROR]: No se encontraron estudiantes registrados - GET /api/students
+2025-03-12T04:50:37.920Z [ERROR]: El email ya está registrado - POST /api/students
+2025-03-12T04:51:25.230Z [ERROR]: El email ya está registrado - POST /api/students
+2025-03-12T04:51:38.240Z [ERROR]: El email ya está registrado - POST /api/students
+2025-03-12T04:52:44.308Z [ERROR]: El email ya está registrado - POST /api/students
+2025-03-12T04:52:45.437Z [ERROR]: El email ya está registrado - POST /api/students
+2025-03-12T04:52:54.812Z [ERROR]: El email ya está registrado - POST /api/students
+2025-03-12T04:53:29.261Z [ERROR]: No se encontraron estudiantes registrados - GET /api/students
+2025-03-12T04:53:29.270Z [ERROR]: No se encontraron estudiantes registrados - GET /api/students
+2025-03-12T04:53:35.266Z [ERROR]: El email ya está registrado - POST /api/students
+2025-03-12T04:53:40.035Z [ERROR]: El email ya está registrado - POST /api/students
+2025-03-12T12:40:43.386Z [ERROR]: El email ya está registrado - POST /api/students
+2025-03-12T12:40:44.487Z [ERROR]: El email ya está registrado - POST /api/students
+2025-03-12T13:33:00.026Z [ERROR]: No se encontraron estudiantes registrados - GET /api/students
+2025-03-12T13:33:00.043Z [ERROR]: No se encontraron estudiantes registrados - GET /api/students
+2025-03-12T13:38:28.160Z [ERROR]: El email ya está registrado - POST /api/students
+2025-03-12T13:38:54.087Z [ERROR]: El ID de estudiante no es válido - GET /api/students/a47ffecd-2d53-447d-bb27-fa6daa9ffb4c
+2025-03-12T13:38:54.093Z [ERROR]: El ID de estudiante no es válido - GET /api/students/a47ffecd-2d53-447d-bb27-fa6daa9ffb4c
+2025-03-12T13:38:56.886Z [ERROR]: No se encontraron estudiantes registrados - GET /api/students
+2025-03-12T13:38:56.895Z [ERROR]: No se encontraron estudiantes registrados - GET /api/students
+2025-03-12T13:39:04.924Z [ERROR]: El email ya está registrado - POST /api/students
+2025-03-12T13:44:12.504Z [ERROR]: El ID de estudiante no es válido - GET /api/students/b97dd424-65e9-4df2-80f2-2d3adcca07de
+2025-03-12T13:44:12.512Z [ERROR]: El ID de estudiante no es válido - GET /api/students/b97dd424-65e9-4df2-80f2-2d3adcca07de
+2025-03-12T13:44:16.965Z [ERROR]: No se encontraron estudiantes registrados - GET /api/students
+2025-03-12T13:44:16.974Z [ERROR]: No se encontraron estudiantes registrados - GET /api/students
+2025-03-12T13:44:25.000Z [ERROR]: El email ya está registrado - POST /api/students
+2025-03-12T13:44:27.753Z [ERROR]: El email ya está registrado - POST /api/students
+2025-03-12T13:44:33.503Z [ERROR]: No se encontraron estudiantes registrados - GET /api/students
+2025-03-12T13:44:33.516Z [ERROR]: No se encontraron estudiantes registrados - GET /api/students
+2025-03-12T13:50:34.980Z [ERROR]: No se encontraron estudiantes registrados - GET /api/students
+2025-03-12T13:50:35.009Z [ERROR]: No se encontraron estudiantes registrados - GET /api/students
+2025-03-12T13:50:42.514Z [ERROR]: El email ya está registrado - POST /api/students
+2025-03-12T13:51:03.363Z [ERROR]: No se encontraron estudiantes registrados - GET /api/students
+2025-03-12T13:51:03.371Z [ERROR]: No se encontraron estudiantes registrados - GET /api/students
+2025-03-12T13:52:26.384Z [ERROR]: El email ya está registrado - POST /api/students
+2025-03-12T13:52:36.536Z [ERROR]: El email ya está registrado - POST /api/students
+2025-03-12T14:41:17.876Z [ERROR]: El email ya está registrado - POST /api/students
+2025-03-12T14:42:38.447Z [ERROR]: El email ya está registrado - POST /api/students
+2025-03-12T14:42:39.177Z [ERROR]: El email ya está registrado - POST /api/students
+2025-03-12T15:34:00.316Z [ERROR]: El email ya está registrado - POST /api/students
+2025-03-12T15:34:03.497Z [ERROR]: El email ya está registrado - POST /api/students
+2025-03-12T15:34:40.683Z [ERROR]: El email ya está registrado - POST /api/students
+2025-03-12T15:34:42.512Z [ERROR]: El email ya está registrado - POST /api/students
+2025-03-12T15:35:29.875Z [ERROR]: No se encontraron estudiantes registrados - GET /api/students
+2025-03-12T15:35:29.894Z [ERROR]: No se encontraron estudiantes registrados - GET /api/students
+2025-03-12T15:35:35.402Z [ERROR]: El email ya está registrado - POST /api/students
+2025-03-12T15:35:42.477Z [ERROR]: No se encontraron estudiantes registrados - GET /api/students
+2025-03-12T15:35:42.511Z [ERROR]: No se encontraron estudiantes registrados - GET /api/students
+2025-03-12T15:35:57.566Z [ERROR]: El email ya está registrado - POST /api/students
+2025-03-12T15:36:28.974Z [ERROR]: El email ya está registrado - POST /api/students
+2025-03-12T15:37:50.451Z [ERROR]: No se encontraron estudiantes registrados - GET /api/students
+2025-03-12T15:37:50.463Z [ERROR]: No se encontraron estudiantes registrados - GET /api/students
+2025-03-12T15:38:41.532Z [ERROR]: El email ya está registrado - POST /api/students
+2025-03-12T15:39:37.570Z [ERROR]: El email ya está registrado - POST /api/students
+2025-03-12T15:51:44.848Z [ERROR]: No se encontraron estudiantes registrados - GET /api/students
+2025-03-12T15:51:44.855Z [ERROR]: No se encontraron estudiantes registrados - GET /api/students
+2025-03-12T15:52:28.246Z [ERROR]: El email ya está registrado - POST /api/students
+2025-03-12T17:01:31.089Z [ERROR]: El email ya está registrado - POST /api/students
+2025-03-13T11:41:10.128Z [ERROR]: No se encontraron estudiantes registrados - GET /api/students
+2025-03-13T11:41:10.144Z [ERROR]: No se encontraron estudiantes registrados - GET /api/students
+2025-03-13T11:42:12.518Z [ERROR]: El email ya está registrado - POST /api/students
+2025-03-13T12:49:19.216Z [ERROR]: El email ya está registrado - POST /api/students
+2025-03-13T13:48:42.957Z [ERROR]: El email ya está registrado - POST /api/students
+2025-03-13T13:49:58.223Z [ERROR]: El email ya está registrado - POST /api/students
+2025-03-13T13:49:59.860Z [ERROR]: El email ya está registrado - POST /api/students
+2025-03-13T13:50:30.582Z [ERROR]: El email ya está registrado - POST /api/students
+2025-03-13T13:51:11.801Z [ERROR]: El email ya está registrado - POST /api/students
+2025-03-13T13:54:22.697Z [ERROR]: El email ya está registrado - POST /api/students
+2025-03-13T13:54:25.325Z [ERROR]: El email ya está registrado - POST /api/students
+2025-03-13T15:45:22.297Z [ERROR]: El email ya está registrado - POST /api/students
