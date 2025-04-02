@@ -13,9 +13,8 @@ import morgan from "morgan";
 // Traer todos los métodos de express
 const app = express();
 
-
 // Configurar Morgan como middleware
-app.use(morgan('dev'));
+app.use(morgan("dev"));
 
 // Configurar CORS
 const corsOptions = {

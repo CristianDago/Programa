@@ -19,7 +19,7 @@ export enum School {
   Buin = "BUÍN",
   Granja = "LA GRANJA",
   Nunoa = "ÑUÑOA",
-  Pudahuel = "PUDAHUEL", 
+  Pudahuel = "PUDAHUEL",
   Miguel = "SAN MIGUEL",
 }
 
@@ -28,14 +28,13 @@ export enum Course {
   NB2 = "2° NIVEL BÁSICO",
   NB3 = "3° NIVEL BÁSICO",
   NM1 = "1° NIVEL MEDIO",
-  NM2 = "2° NIVEL MEDIO", 
+  NM2 = "2° NIVEL MEDIO",
 }
 
 export interface CallStatus {
   completed: boolean;
   comment: string | null;
 }
-
 
 type PositiveFeedbackOptions =
   | ""
@@ -50,9 +49,9 @@ type PositiveFeedbackOptions =
   | "PERSONA QUE ENVÍA DOCUMENTACIÓN Y SE DEBE TRASLADAR A OTRA PLANILLA";
 
 export interface Student {
-  id: string; // UUID del estudiante 
-  name: string; // Nombre del estudiante (obligatorio) 
-  lastname: string; // Apellido del estudiante (obligatorio) 
+  id: string; // UUID del estudiante
+  name: string; // Nombre del estudiante (obligatorio)
+  lastname: string; // Apellido del estudiante (obligatorio)
   rut?: string; // RUT del estudiante (opcional)
   sex?: Sex; // Sexo del estudiante (opcional)-
   birthdate?: Date; // Fecha de nacimiento (opcional)-
@@ -66,16 +65,16 @@ export interface Student {
   call1?: string; // Estado de la llamada 1 (opcional)-
   call2?: string; // Estado de la llamada 2 (opcional)-
   call3?: string; // Estado de la llamada 3 (opcional)-
-  comments1?: string; 
+  comments1?: string;
   comments2?: string;
   comments3?: string;
   positiveFeedback: PositiveFeedbackOptions;
-  studentImage?: string; 
-  birthCertificate?: string; 
-  studyCertificate?: string; 
+  studentImage?: string;
+  birthCertificate?: string;
+  studyCertificate?: string;
   linkDni?: string; // Enlace al DNI (opcional)
-  school?: School;// Colegios
-  course?: Course;// Cursos
+  school?: School; // Colegios
+  course?: Course; // Cursos
   communicationPreference?: CommunicationPreference; // Preferencia de comunicación (opcional)-
   createdAt?: Date; // Fecha de creación (opcional)-
 }

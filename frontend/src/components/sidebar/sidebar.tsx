@@ -1,7 +1,6 @@
-import React, { useState } from "react";
+import React, { useState, useMemo } from "react";
 import { useAuth } from "../auth/authContext";
 import { useNavigate } from "react-router-dom";
-import Dropdown from "../common/dropdown-options/dropdown";
 import css from "./sidebar.module.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -10,92 +9,38 @@ import {
   faHouse,
   faChartPie,
   faGraduationCap,
+  faSchool, // Icono de colegios
 } from "@fortawesome/free-solid-svg-icons";
 import logo from "../../assets/images/logo-escuelas-blanco.png";
 
-interface DropdownItem {
-  label: string;
-  options: { label: string; path: string }[];
-}
-
-interface SidebarProps {}
-
-const Sidebar: React.FC<SidebarProps> = () => {
+const Sidebar: React.FC = () => {
   const { logout } = useAuth();
   const navigate = useNavigate();
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
 
-  const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
-  };
+  const toggleMenu = () => setIsMenuOpen((prev) => !prev);
 
   const handleLogout = () => {
     logout();
     navigate("/");
   };
 
-  const dropdownItems: DropdownItem[] = [
-    {
-      label: "Quinta normal",
-      options: [
-        { label: "1° nivel básico", path: "quinta-normal/1nb" },
-        { label: "2° nivel básico", path: "quinta-normal/2nb" },
-        { label: "3° nivel básico", path: "quinta-normal/3nb" },
-        { label: "1° nivel medio", path: "quinta-normal/1nm" },
-        { label: "2° nivel medio", path: "quinta-normal/2nm" },
-      ],
-    },
-    {
-      label: "Buín",
-      options: [
-        { label: "1° nivel básico", path: "buin/1nb" },
-        { label: "2° nivel básico", path: "buin/2nb" },
-        { label: "3° nivel básico", path: "buin/3nb" },
-        { label: "1° nivel medio", path: "buin/1nm" },
-        { label: "2° nivel medio", path: "buin/2nm" },
-      ],
-    },
-    {
-      label: "La Granja",
-      options: [
-        { label: "1° nivel básico", path: "la-granja/1nb" },
-        { label: "2° nivel básico", path: "la-granja/2nb" },
-        { label: "3° nivel básico", path: "la-granja/3nb" },
-        { label: "1° nivel medio", path: "la-granja/1nm" },
-        { label: "2° nivel medio", path: "la-granja/2nm" },
-      ],
-    },
-    {
-      label: "Ñuñoa",
-      options: [
-        { label: "1° nivel básico", path: "nunoa/1nb" },
-        { label: "2° nivel básico", path: "nunoa/2nb" },
-        { label: "3° nivel básico", path: "nunoa/3nb" },
-        { label: "1° nivel medio", path: "nunoa/1nm" },
-        { label: "2° nivel medio", path: "nunoa/2nm" },
-      ],
-    },
-    {
-      label: "Pudahuel",
-      options: [
-        { label: "1° nivel básico", path: "pudahuel/1nb" },
-        { label: "2° nivel básico", path: "pudahuel/2nb" },
-        { label: "3° nivel básico", path: "pudahuel/3nb" },
-        { label: "1° nivel medio", path: "pudahuel/1nm" },
-        { label: "2° nivel medio", path: "pudahuel/2nm" },
-      ],
-    },
-    {
-      label: "San Miguel",
-      options: [
-        { label: "1° nivel básico", path: "san-miguel/1nb" },
-        { label: "2° nivel básico", path: "san-miguel/2nb" },
-        { label: "3° nivel básico", path: "san-miguel/3nb" },
-        { label: "1° nivel medio", path: "san-miguel/1nm" },
-        { label: "2° nivel medio", path: "san-miguel/2nm" },
-      ],
-    },
-  ];
+  const dropdownItems = useMemo(
+    () => [
+      { label: "Quinta normal", options: generateOptions("quinta-normal") },
+      { label: "Buín", options: generateOptions("buin") },
+      { label: "La Granja", options: generateOptions("la-granja") },
+      { label: "Ñuñoa", options: generateOptions("nunoa") },
+      { label: "Pudahuel", options: generateOptions("pudahuel") },
+      { label: "San Miguel", options: generateOptions("san-miguel") },
+    ],
+    []
+  );
+
+  const handleDropdownClick = (label: string) => {
+    setActiveDropdown(activeDropdown === label ? null : label);
+  };
 
   return (
     <>
@@ -118,17 +63,40 @@ const Sidebar: React.FC<SidebarProps> = () => {
             <FontAwesomeIcon icon={faChartPie} className={css.icons} />
             Estadísticas
           </li>
-
-          {/*           <li onClick={() => navigate("/dashboard/chat")}>
-            <FontAwesomeIcon icon={faComments} className={css.icons} />
-            Chat
-          </li> */}
         </ul>
 
         <h3>Colegios</h3>
         <ul>
           {dropdownItems.map((item) => (
-            <Dropdown key={item.label} item={item} />
+            <li
+              key={item.label}
+              className={`${css.dropdownContainer} ${
+                activeDropdown === item.label ? css.open : ""
+              }`}
+              onClick={() => handleDropdownClick(item.label)}
+            >
+              {/* Contenedor flexible para alinear icono y texto */}
+              <div className={css.dropdownToggle}>
+                <FontAwesomeIcon icon={faSchool} className={css.icons} />
+                <span>{item.label}</span>
+              </div>
+              <ul
+                className={css.dropdownMenu}
+                style={{
+                  height:
+                    activeDropdown === item.label
+                      ? `${item.options.length * 40}px`
+                      : "0",
+                  overflow: "hidden",
+                }}
+              >
+                {item.options.map((option) => (
+                  <li key={option.path} onClick={() => navigate(option.path)}>
+                    {option.label}
+                  </li>
+                ))}
+              </ul>
+            </li>
           ))}
         </ul>
 
@@ -137,5 +105,13 @@ const Sidebar: React.FC<SidebarProps> = () => {
     </>
   );
 };
+
+const generateOptions = (school: string) => [
+  { label: "1° nivel básico", path: `/dashboard/${school}/1nb` },
+  { label: "2° nivel básico", path: `/dashboard/${school}/2nb` },
+  { label: "3° nivel básico", path: `/dashboard/${school}/3nb` },
+  { label: "1° nivel medio", path: `/dashboard/${school}/1nm` },
+  { label: "2° nivel medio", path: `/dashboard/${school}/2nm` },
+];
 
 export default Sidebar;

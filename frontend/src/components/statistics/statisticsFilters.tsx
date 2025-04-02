@@ -1,4 +1,4 @@
-// src/components/statistics/StatisticsFilters.tsx
+// src/components/statistics/statisticsFilters.tsx
 import {
   Student,
   School,
@@ -19,27 +19,29 @@ interface StatisticsFiltersProps {
 interface FilteredStatistics {
   socialMediaCount: number;
   captadorCount: number;
-  noResponseCount: number;
-  notEnrolledCount: number;
-  enrolledCount: number;
+  noRegisteredSource: number;
   whatsappCount: number;
   phoneCount: number;
+  noRegisteredCommunication: number;
   contactsByPerson: { Captador: string; Contacto: number }[];
   studentsBySchool: { school: string; students: number }[];
   studentsByCollegeCourse: { [school: string]: { [course: string]: number } };
-}
-
-interface FilteredStatistics {
-  // ... (resto de las propiedades)
   studentsBySchoolCourseFeedback: {
-    school: string;
-    course: string;
+    Escuela: string;
+    Curso: string;
     feedback: string;
-    count: number;
+    Estudiantes: number;
   }[];
+  genderCount: {
+    hombres: number;
+    mujeres: number;
+    otros: number;
+    noContesta: number;
+  };
+  studentsByGeneralState: { estado: string; cantidad: number }[];
+  studentsWithoutSchoolAndCourse: number;
 }
 
-// Objetos de mapeo para School y Course
 const schoolMap: Record<School, string> = {
   [School.Quinta]: "QUINTA NORMAL",
   [School.Buin]: "BUÍN",
@@ -57,25 +59,6 @@ const courseMap: Record<Course, string> = {
   [Course.NM2]: "2° NIVEL MEDIO",
 };
 
-// Funciones para obtener las etiquetas de School y Course
-
-const getSchoolLabel = (school: School | undefined | null): string => {
-  if (school === undefined || school === null) {
-    return "No asignado";
-  }
-  return schoolMap[school];
-};
-
-// Función para obtener la etiqueta de Course
-
-const getCourseLabel = (course: Course | undefined | null): string => {
-  if (course === undefined || course === null) {
-    return "No asignado";
-  }
-  return courseMap[course];
-};
-
-// Función para calcular las estadísticas
 export const calculateStatistics = ({
   students,
   source,
@@ -84,158 +67,150 @@ export const calculateStatistics = ({
 }: StatisticsFiltersProps): FilteredStatistics => {
   let filteredStudents = students;
 
+  // Primero obtenemos los estados únicos de feedback sin aplicar ningún filtro
+  const uniqueFeedbacks = Array.from(
+    new Set(students.map((s) => s.positiveFeedback || "AÚN SIN RESPUESTAS"))
+  );
+
+  // Luego filtramos los estudiantes por fuente, escuela y curso solo si los parámetros están definidos
   if (source) {
-    filteredStudents = SourceFilter({
-      students: filteredStudents,
-      source: source,
-    });
+    filteredStudents = SourceFilter({ students: filteredStudents, source });
   }
-
   if (school) {
-    filteredStudents = SchoolFilter({
-      students: filteredStudents,
-      school: school,
-    });
+    filteredStudents = SchoolFilter({ students: filteredStudents, school });
   }
-
   if (course) {
-    filteredStudents = CourseFilter({
-      students: filteredStudents,
-      course: course,
+    filteredStudents = CourseFilter({ students: filteredStudents, course });
+  }
+
+  const studentsWithoutSchoolAndCourse = filteredStudents.filter(
+    (s) => !s.school || !s.course
+  ).length;
+
+  const studentsByGeneralState: { estado: string; cantidad: number }[] = [];
+
+  // Ahora que los estudiantes están filtrados, contamos la cantidad de estudiantes por cada feedback
+  uniqueFeedbacks.forEach((feedback) => {
+    studentsByGeneralState.push({
+      estado: feedback,
+      cantidad: filteredStudents.filter(
+        (s) => (s.positiveFeedback || "AÚN SIN RESPUESTAS") === feedback
+      ).length,
     });
-  }
-
-  let socialMediaCount: number = 0;
-  let captadorCount: number = 0;
-  let noResponseCount: number = 0;
-  let notEnrolledCount: number = 0;
-  let enrolledCount: number = 0;
-  let whatsappCount: number = 0;
-  let phoneCount: number = 0;
-
-  for (const student of filteredStudents) {
-    if (student.source === "REDES SOCIALES") {
-      socialMediaCount++;
-    }
-    if (student.source === "CAPTADOR") {
-      captadorCount++;
-    }
-    if (student.positiveFeedback === "AÚN SIN RESPUESTAS") {
-      noResponseCount++;
-    }
-    if (student.positiveFeedback === "NO SE MATRICULARÁ") {
-      notEnrolledCount++;
-    }
-    if (
-      student.positiveFeedback ===
-      "PERSONA CON DOCUMENTACIÓN Y MATRÍCULA FIRMADA EN ESCUELA"
-    ) {
-      enrolledCount++;
-    }
-    if (student.communicationPreference === "WHATSAPP") {
-      whatsappCount++;
-    }
-    if (student.communicationPreference === "TELÉFONO") {
-      phoneCount++;
-    }
-  }
-
-  // Contactos por persona
-
-  const contactsByPerson = [
-    {
-      Captador: "Lorena",
-      Contacto: filteredStudents.filter((s) => s.contact === "LORENA").length,
-    },
-    {
-      Captador: "Arlette",
-      Contacto: filteredStudents.filter((s) => s.contact === "ARLETTE").length,
-    },
-    // ... (puedes agregar más personas)
-  ];
-
-  // Estudiantes por escuela
-
-  const studentsBySchool = Object.keys(School).map((schoolKey) => {
-    const schoolEnumValue = School[schoolKey as keyof typeof School];
-    const schoolName = schoolMap[schoolEnumValue];
-    const count = filteredStudents.filter(
-      (s) => s.school === schoolEnumValue
-    ).length;
-    return { school: schoolName, students: count };
   });
 
-  // Estudiantes por curso en cada escuela
+  const socialMediaCount = filteredStudents.filter(
+    (s) => s.source === "REDES SOCIALES"
+  ).length;
+  const captadorCount = filteredStudents.filter(
+    (s) => s.source === "CAPTADOR"
+  ).length;
+
+  const noRegisteredSource = filteredStudents.filter((s) => !s.source).length;
+
+  const whatsappCount = filteredStudents.filter(
+    (s) => s.communicationPreference === "WHATSAPP"
+  ).length;
+  const phoneCount = filteredStudents.filter(
+    (s) => s.communicationPreference === "TELÉFONO"
+  ).length;
+
+  const noRegisteredCommunication = filteredStudents.filter(
+    (s) => !s.communicationPreference
+  ).length;
+
+  // Modificar la función contactsByPerson para incluir los captadores sin respuesta
+  // src/components/statistics/statisticsFilters.tsx
+
+  const contactsByPerson = [
+    "Lorena",
+    "Arlette",
+    "María",
+    "Rowina",
+    "No Ingresa Captador",
+  ].map((person) => {
+    let studentCount = 0;
+
+    if (person === "No Ingresa Captador") {
+      // Si el nombre es "No Ingresa Captador", contamos los estudiantes sin captador
+      studentCount = filteredStudents.filter((s) => !s.contact).length;
+    } else {
+      // De lo contrario, contamos los estudiantes asignados a ese captador
+      studentCount = filteredStudents.filter(
+        (s) => s.contact === person.toUpperCase()
+      ).length;
+    }
+
+    return {
+      Captador: person,
+      Contacto: studentCount,
+    };
+  });
+
+  const studentsBySchool = Object.values(School).map((schoolValue) => ({
+    school: schoolMap[schoolValue],
+    students: filteredStudents.filter((s) => s.school === schoolValue).length,
+  }));
 
   const studentsByCollegeCourse: {
     [school: string]: { [course: string]: number };
   } = {};
-  Object.keys(School).forEach((escuelaKey) => {
-    const schoolName = getSchoolLabel(
-      School[escuelaKey as keyof typeof School]
-    );
+  Object.values(School).forEach((schoolValue) => {
+    const schoolName = schoolMap[schoolValue];
     studentsByCollegeCourse[schoolName] = {};
-
-    Object.keys(Course).forEach((cursoKey) => {
-      const courseName = getCourseLabel(
-        Course[cursoKey as keyof typeof Course]
-      );
-      const count = filteredStudents.filter(
-        (s) =>
-          s.school === School[escuelaKey as keyof typeof School] &&
-          s.course === Course[cursoKey as keyof typeof Course]
+    Object.values(Course).forEach((courseValue) => {
+      const courseName = courseMap[courseValue];
+      studentsByCollegeCourse[schoolName][courseName] = filteredStudents.filter(
+        (s) => s.school === schoolValue && s.course === courseValue
       ).length;
-      studentsByCollegeCourse[schoolName][courseName] = count;
     });
   });
 
-  // Estudiantes por escuela, curso y feedback
-
   const studentsBySchoolCourseFeedback: {
-    school: string;
-    course: string;
+    Escuela: string;
+    Curso: string;
     feedback: string;
-    count: number;
+    Estudiantes: number;
   }[] = [];
-  const allFeedbacks = Array.from(
-    new Set(students.map((s) => s.positiveFeedback))
-  ); // Obtener todos los feedbacks posibles
 
   Object.values(School).forEach((schoolValue) => {
     Object.values(Course).forEach((courseValue) => {
-      allFeedbacks.forEach((feedback) => {
-        const count = filteredStudents.filter(
-          (s) =>
-            s.school === schoolValue &&
-            s.course === courseValue &&
-            s.positiveFeedback === feedback
-        ).length;
-
+      uniqueFeedbacks.forEach((feedback) => {
         studentsBySchoolCourseFeedback.push({
-          school: schoolMap[schoolValue],
-          course: courseMap[courseValue],
-          feedback: feedback,
-          count: count,
+          Escuela: schoolMap[schoolValue],
+          Curso: courseMap[courseValue],
+          feedback,
+          Estudiantes: filteredStudents.filter(
+            (s) =>
+              s.school === schoolValue &&
+              s.course === courseValue &&
+              (s.positiveFeedback || "AÚN SIN RESPUESTAS") === feedback
+          ).length,
         });
       });
     });
   });
 
+  const genderCount = {
+    hombres: filteredStudents.filter((s) => s.sex === "MASCULINO").length,
+    mujeres: filteredStudents.filter((s) => s.sex === "FEMENINO").length,
+    otros: filteredStudents.filter((s) => s.sex === "OTROS").length,
+    noContesta: filteredStudents.filter((s) => !s.sex).length,
+  };
+
   return {
     socialMediaCount,
     captadorCount,
-    noResponseCount,
-    notEnrolledCount,
-    enrolledCount,
+    noRegisteredSource,
     whatsappCount,
     phoneCount,
+    noRegisteredCommunication,
     contactsByPerson,
     studentsBySchool,
     studentsByCollegeCourse,
     studentsBySchoolCourseFeedback,
+    genderCount,
+    studentsByGeneralState,
+    studentsWithoutSchoolAndCourse, // Ahora esta propiedad tiene un valor
   };
-};
-
-export const StatisticsFilters = () => {
-  return null;
 };

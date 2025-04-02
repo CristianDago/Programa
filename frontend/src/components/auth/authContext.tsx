@@ -1,10 +1,17 @@
-import React, { useContext, createContext, useState, useEffect } from "react";
+// src/components/auth/authContext.tsx
+import React, {
+  useContext,
+  createContext,
+  useState,
+  useEffect,
+  useMemo,
+  useCallback,
+} from "react";
 import { jwtDecode } from "jwt-decode";
 import AuthProviderProps from "../../interface/auth/authProviderProps";
 import AuthContextType from "../../interface/auth/authContextType";
-import { useAuthStorage } from "./authStorage"; // Asegúrate de que este hook sea seguro para producción
-import * as Sentry from "@sentry/react"; // Importa Sentry para el registro de errores
-import Cookies from "js-cookie";
+import { useAuthStorage } from "./authStorage";
+import * as Sentry from "@sentry/react";
 
 const AuthContext = createContext<AuthContextType>({
   token: null,
@@ -17,66 +24,83 @@ const AuthContext = createContext<AuthContextType>({
 });
 
 export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
-  const { token, setToken } = useAuthStorage();
+  const { token, updateToken, clearToken } = useAuthStorage();
   const [isLoading, setIsLoading] = useState(false);
   const [userId, setUserId] = useState<string | null>(null);
   const [email, setEmail] = useState<string | null>(null);
-  const isAuthenticated = !!token;
 
-  useEffect(() => {
-    if (token) {
-      try {
-        const decoded = jwtDecode<{ [key: string]: any }>(token);
-        setUserId(decoded.uid);
-        setEmail(decoded.email);
-      } catch (error) {
-        Sentry.captureException(error); // Registra el error en Sentry
-        console.error("Error al decodificar el token:", error);
-        setUserId(null);
-        setEmail(null);
-      }
-    } else {
-      setUserId(null);
-      setEmail(null);
-    }
-  }, [token]);
+  const isAuthenticated = useMemo(() => !!token, [token]);
 
-  const login = async (newToken: string) => {
-    setIsLoading(true);
-    try {
-      Cookies.set("token", newToken);
-      setToken(newToken);
-      const decoded = jwtDecode<{ [key: string]: any }>(newToken);
-      setUserId(decoded.uid);
-      setEmail(decoded.email);
-      console.log("✅ Usuario autenticado con ID:", decoded.uid);
-      console.log("✅ Email del usuario:", decoded.email);
-    } catch (error) {
-      Sentry.captureException(error); // Registra el error en Sentry
-      console.error("❌ Error en el login:", error);
-      setIsLoading(false);
-      throw error;
-    } finally {
-      setIsLoading(false);
-    }
-  };
-
-  const logout = () => {
-    Cookies.remove("token");
-    setToken(null);
-    setUserId(null);
-    setEmail(null);
-  };
-
-  const value = {
+  console.log("AuthContext renderizado", {
     token,
     userId,
     email,
     isAuthenticated,
-    login,
-    logout,
     isLoading,
-  };
+  });
+
+  useEffect(() => {
+    if (!token) {
+      setUserId(null);
+      setEmail(null);
+      return;
+    }
+
+    setIsLoading(true);
+    try {
+      const decoded = jwtDecode<{ uid: string; email: string }>(token);
+
+      // Solo actualizamos si el token cambió y se decodifica correctamente
+      if (decoded.uid !== userId || decoded.email !== email) {
+        setUserId(decoded.uid);
+        setEmail(decoded.email);
+      }
+    } catch (error) {
+      Sentry.captureException(error);
+      clearToken();
+    } finally {
+      setIsLoading(false);
+    }
+  }, [token, userId, email, clearToken]);
+
+  const login = useCallback(
+    async (newToken: string) => {
+      setIsLoading(true);
+      try {
+        const decoded = jwtDecode<{ uid: string; email: string }>(newToken);
+
+        // Solo actualizamos si el token cambió
+        if (newToken !== token) updateToken(newToken);
+
+        // Solo actualizamos si el userId o el email cambian
+        if (decoded.uid !== userId) setUserId(decoded.uid);
+        if (decoded.email !== email) setEmail(decoded.email);
+      } catch (error) {
+        Sentry.captureException(error);
+        clearToken();
+      } finally {
+        setIsLoading(false);
+      }
+    },
+    [updateToken, clearToken, token, userId, email]
+  );
+
+  const logout = useCallback(() => {
+    clearToken();
+  }, [clearToken]);
+
+  const value = useMemo(
+    () => ({
+      token,
+      userId,
+      email,
+      isAuthenticated,
+      isLoading,
+      login,
+      logout,
+    }),
+    [token, userId, email, isAuthenticated, isLoading]
+  );
 
   return <AuthContext.Provider value={value}>{children}</AuthContext.Provider>;
 };

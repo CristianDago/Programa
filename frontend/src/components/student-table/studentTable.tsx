@@ -25,31 +25,22 @@ export const StudentTable: React.FC<StudentTableProps> = ({
   const [currentPage, setCurrentPage] = useState(1);
   const studentsPerPage = 20;
 
-  const getBackgroundColor = (
-    positiveFeedback: StudentList["positiveFeedback"]
-  ) => {
-    switch (positiveFeedback) {
-      case "AÚN SIN RESPUESTAS":
-        return "#FFFFFF";
-      case "NO SE MATRICULARÁ":
-        return "#F08080";
-      case "INCONTACTABLE":
-        return "#ff9900";
-      case "PERSONA INTERESADA QUE ENVIARÁ DOCUMENTACIÓN":
-        return "#ADD8E6";
-      case "PERSONA QUE ENVIÓ DOCUMENTACIÓN PERO LE FALTA FIRMAR SU MATRÍCULA":
-        return "#E0FFFF";
-      case "PERSONA QUE IRÁ A MATRICULARSE DIRECTAMENTE A LA ESCUELA":
-        return "#90EE90";
-      case "PERSONA CON DOCUMENTACIÓN Y MATRÍCULA FIRMADA EN ESCUELA":
-        return "#98FB98";
-      case "INTERESADA PARA PRÓXIMO AÑO":
-        return "#FFA07A";
-      case "PERSONA QUE ENVÍA DOCUMENTACIÓN Y SE DEBE TRASLADAR A OTRA PLANILLA":
-        return "#DDA0DD";
-      default:
-        return "#FFFFFF";
-    }
+  const colors: Record<string, string> = {
+    "AÚN SIN RESPUESTAS": "#ffffff",
+    "NO SE MATRICULARÁ": "#ff0000",
+    INCONTACTABLE: "#ff9900",
+    "PERSONA INTERESADA QUE ENVIARÁ DOCUMENTACIÓN": "#ffff00",
+    "PERSONA QUE ENVIÓ DOCUMENTACIÓN PERO LE FALTA FIRMAR SU MATRÍCULA":
+      "#00ffff",
+    "PERSONA QUE IRÁ A MATRICULARSE DIRECTAMENTE A LA ESCUELA": "#ff00ff",
+    "PERSONA CON DOCUMENTACIÓN Y MATRÍCULA FIRMADA EN ESCUELA": "#00ff00",
+    "INTERESADA PARA PRÓXIMO AÑO": "#1155cc",
+    "PERSONA QUE ENVÍA DOCUMENTACIÓN Y SE DEBE TRASLADAR A OTRA PLANILLA":
+      "#9900ff",
+  };
+
+  const getBackgroundColor = (positiveFeedback: string) => {
+    return colors[positiveFeedback] || "#FFFFFF";
   };
 
   let filteredStudents = students;
@@ -65,13 +56,16 @@ export const StudentTable: React.FC<StudentTableProps> = ({
     );
   });
 
+  const totalPages = Math.max(
+    1,
+    Math.ceil(filteredStudents.length / studentsPerPage)
+  );
   const indexOfLastStudent = currentPage * studentsPerPage;
   const indexOfFirstStudent = indexOfLastStudent - studentsPerPage;
   const currentStudents = filteredStudents.slice(
     indexOfFirstStudent,
     indexOfLastStudent
   );
-  const totalPages = Math.ceil(filteredStudents.length / studentsPerPage);
 
   const handleViewProfile = (id: string) => {
     navigate(`${viewProfilePath}/${id}`);
@@ -96,27 +90,11 @@ export const StudentTable: React.FC<StudentTableProps> = ({
           onChange={(e) => setFilterFeedback(e.target.value)}
         >
           <option value="">Todos los estados</option>
-          <option value="AÚN SIN RESPUESTAS">AÚN SIN RESPUESTAS</option>
-          <option value="NO SE MATRICULARÁ">NO SE MATRICULARÁ</option>
-          <option value="INCONTACTABLE">INCONTACTABLE</option>
-          <option value="PERSONA INTERESADA QUE ENVIARÁ DOCUMENTACIÓN">
-            PERSONA INTERESADA QUE ENVIARÁ DOCUMENTACIÓN
-          </option>
-          <option value="PERSONA QUE ENVIÓ DOCUMENTACIÓN PERO LE FALTA FIRMAR SU MATRÍCULA">
-            PERSONA QUE ENVIÓ DOCUMENTACIÓN PERO LE FALTA FIRMAR SU MATRÍCULA
-          </option>
-          <option value="PERSONA QUE IRÁ A MATRICULARSE DIRECTAMENTE A LA ESCUELA">
-            PERSONA QUE IRÁ A MATRICULARSE DIRECTAMENTE A LA ESCUELA
-          </option>
-          <option value="PERSONA CON DOCUMENTACIÓN Y MATRÍCULA FIRMADA EN ESCUELA">
-            PERSONA CON DOCUMENTACIÓN Y MATRÍCULA FIRMADA EN ESCUELA
-          </option>
-          <option value="INTERESADA PARA PRÓXIMO AÑO">
-            INTERESADA PARA PRÓXIMO AÑO
-          </option>
-          <option value="PERSONA QUE ENVÍA DOCUMENTACIÓN Y SE DEBE TRASLADAR A OTRA PLANILLA">
-            PERSONA QUE ENVÍA DOCUMENTACIÓN Y SE DEBE TRASLADAR A OTRA PLANILLA
-          </option>
+          {Object.keys(colors).map((key) => (
+            <option key={key} value={key}>
+              {key}
+            </option>
+          ))}
         </select>
       </div>
 
@@ -131,28 +109,38 @@ export const StudentTable: React.FC<StudentTableProps> = ({
           </tr>
         </thead>
         <tbody>
-          {currentStudents.map((student) => (
-            <tr key={student.id}>
-              <td>{student.name}</td>
-              <td>{student.lastname}</td>
-              <td>{student.rut}</td>
-              <td
-                style={{
-                  backgroundColor: getBackgroundColor(student.positiveFeedback),
-                }}
-              >
-                {student.positiveFeedback}
-              </td>
-              <td>
-                <button
-                  onClick={() => handleViewProfile(student.id)}
-                  className={css.viewProfileButton}
+          {currentStudents.length > 0 ? (
+            currentStudents.map((student) => (
+              <tr key={student.id}>
+                <td>{student.name}</td>
+                <td>{student.lastname}</td>
+                <td>{student.rut}</td>
+                <td
+                  style={{
+                    backgroundColor: getBackgroundColor(
+                      student.positiveFeedback
+                    ),
+                  }}
                 >
-                  Ver Perfil
-                </button>
+                  {student.positiveFeedback}
+                </td>
+                <td>
+                  <button
+                    onClick={() => handleViewProfile(student.id)}
+                    className={css.viewProfileButton}
+                  >
+                    Ver Perfil
+                  </button>
+                </td>
+              </tr>
+            ))
+          ) : (
+            <tr>
+              <td colSpan={5} style={{ textAlign: "center", padding: "10px" }}>
+                No hay estudiantes disponibles.
               </td>
             </tr>
-          ))}
+          )}
         </tbody>
       </table>
 

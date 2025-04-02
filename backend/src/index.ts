@@ -21,9 +21,10 @@ const main = async () => {
   try {
     await sequelizeStudent.authenticate();
     await sequelizeStudent.sync();
+    //await sequelizeStudent.sync({ force: true });
     console.log("Base de datos profiledb conectada:");
   } catch (error) {
-    console.error("Error conectando a userdb:", error);
+    console.error("Error conectando a profiledb", error);
   }
 
   server.listen(port, () => {

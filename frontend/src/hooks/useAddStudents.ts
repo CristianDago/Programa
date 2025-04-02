@@ -1,4 +1,3 @@
-// src/hooks/useAddStudent.ts
 import { useState, ChangeEvent, FormEvent } from "react";
 import { addStudent } from "../utils/fetchStudents";
 import { Student } from "../interface/student/stundent";
@@ -59,13 +58,46 @@ export function useAddStudent(token: string) {
       return;
     }
 
+    // 🟢 Reinicia mensajes antes de cada intento
+    setErrorMessage("");
+    setSuccessMessage("");
+
     try {
-      await addStudent(token, studentData); // Utiliza studentData
+      await addStudent(token, studentData);
       setSuccessMessage("Estudiante agregado con éxito");
-      setErrorMessage("");
+
+      // Restablece los datos del estudiante a su valor inicial
+      setStudentData({
+        name: "",
+        lastname: "",
+        rut: "",
+        sex: undefined,
+        birthdate: undefined,
+        nationality: "",
+        address: "",
+        phone: "",
+        email: "",
+        source: undefined,
+        contact: "",
+        contactDate: undefined,
+        call1: "",
+        call2: "",
+        call3: "",
+        comments1: "",
+        comments2: "",
+        comments3: "",
+        positiveFeedback: "AÚN SIN RESPUESTAS",
+        studentImage: "",
+        birthCertificate: "",
+        studyCertificate: "",
+        linkDni: "",
+        school: undefined,
+        course: undefined,
+        communicationPreference: undefined,
+        createdAt: undefined,
+      });
     } catch (error) {
       setErrorMessage("No se pudo agregar el estudiante");
-      setSuccessMessage("");
     }
   };
 

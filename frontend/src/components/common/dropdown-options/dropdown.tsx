@@ -1,24 +1,26 @@
-import React, { useState } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faSchoolFlag } from "@fortawesome/free-solid-svg-icons";
-import DropdownOptions from "./dropdownOptions";
+import React from "react";
+import { useNavigate } from "react-router-dom";
 import css from "../../sidebar/sidebar.module.scss";
 
-interface DropdownItem {
+interface DropdownOption {
   label: string;
-  options: { label: string; path: string }[];
+  path: string;
 }
 
-const Dropdown: React.FC<{ item: DropdownItem }> = ({ item }) => {
-  const [isOpen, setIsOpen] = useState(false);
+interface DropdownProps {
+  options: DropdownOption[];
+}
+
+const Dropdown: React.FC<DropdownProps> = ({ options }) => {
+  const navigate = useNavigate();
   return (
-    <li>
-      <div onClick={() => setIsOpen(!isOpen)} className={css.dropdownToggle}>
-        <FontAwesomeIcon icon={faSchoolFlag} className={css.icons} />
-        {item.label}
-      </div>
-      {isOpen && <DropdownOptions options={item.options} />}
-    </li>
+    <ul className={css.dropdownMenu}>
+      {options.map((option, index) => (
+        <li key={index} onClick={() => navigate(option.path)}>
+          {option.label}
+        </li>
+      ))}
+    </ul>
   );
 };
 

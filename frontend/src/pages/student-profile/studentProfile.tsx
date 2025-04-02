@@ -1,3 +1,4 @@
+// src/pages/studentProfile/StudentProfile.tsx
 import { useEffect } from "react";
 import { useParams, useNavigate } from "react-router-dom";
 import { useAuth } from "../../components/auth/authContext";
@@ -7,8 +8,8 @@ import StudentDetails from "./studentProfileDetails";
 
 const StudentProfile = () => {
   const { id } = useParams<{ id: string }>();
-  const { token: tokenFromAuth } = useAuth(); // Renombrar para evitar conflictos
-  const token = tokenFromAuth === null ? undefined : tokenFromAuth; // Convertir null a undefined
+  const { token: tokenFromAuth } = useAuth();
+  const token = tokenFromAuth === null ? undefined : tokenFromAuth;
   const {
     student,
     error,
@@ -20,20 +21,25 @@ const StudentProfile = () => {
     handleSubmitEdit,
     handleDelete,
     isDeleted,
-  } = useStudentProfile(id, token); // Usa el hook
-  const navigate = useNavigate(); 
+  } = useStudentProfile(id, token);
+  const navigate = useNavigate();
+
+  console.log("StudentProfile renderizado", { id, isEditing, isDeleted }); // Añadido console.log()
 
   useEffect(() => {
+    console.log("useEffect: isDeleted cambiado", isDeleted); // Añadido console.log()
     if (isDeleted) {
-        navigate("/dashboard"); // Redirige al dashboard
+      navigate("/dashboard");
     }
-}, [isDeleted, navigate]); // A
+  }, [isDeleted, navigate]);
 
   if (error) {
+    console.log("Error en StudentProfile", error); // Añadido console.log()
     return <div>{error}</div>;
   }
 
   if (!student) {
+    console.log("Cargando StudentProfile"); // Añadido console.log()
     return <div>Cargando...</div>;
   }
 

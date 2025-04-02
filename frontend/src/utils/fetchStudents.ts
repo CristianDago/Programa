@@ -2,6 +2,19 @@ import { Student } from "../interface/student/stundent";
 
 // Add student
 export const addStudent = async (token: string, studentData: Student) => {
+  // Verificar si el token es válido
+  if (!token) {
+    throw new Error("Token no válido o no presente");
+  }
+
+  // Mostrar la URL de la API y el cuerpo de la solicitud
+  console.log(
+    "URL de la API:",
+    `${import.meta.env.VITE_API_BASE_URL}/api/students`
+  );
+  console.log("Datos del estudiante:", studentData);
+
+  // Iniciar la solicitud
   const response = await fetch(
     `${import.meta.env.VITE_API_BASE_URL}/api/students`,
     {
@@ -14,15 +27,19 @@ export const addStudent = async (token: string, studentData: Student) => {
     }
   );
 
+  // Verificar si la respuesta fue correcta
   if (!response.ok) {
+    // Capturamos el error detallado de la respuesta
+    const errorBody = await response.text();
+    console.error("Error de la API:", errorBody); // Mostrar el error detallado
     throw new Error("Error al agregar el estudiante");
   }
 
+  // Devolver el resultado en formato JSON
   return response.json();
 };
 
-// Fetch students list
-
+// Fetch students list (sin cambios)
 const fetchStudentsList = async (token: string) => {
   const response = await fetch(
     `${import.meta.env.VITE_API_BASE_URL}/api/students`,

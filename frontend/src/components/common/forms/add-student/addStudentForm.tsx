@@ -59,6 +59,7 @@ export const AddStudentForm: React.FC<AddStudentFormProps> = ({
             type="text"
             value={studentData.phone}
             onChange={handleChange}
+            required
           />
           <FormInput
             label="Fecha de Nacimiento"

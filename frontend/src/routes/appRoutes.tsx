@@ -1,17 +1,29 @@
+// src/routes/appRoutes.tsx
 import { lazy } from "react";
-import { createBrowserRouter } from "react-router-dom";
-import ProtectedRoute from "./protectedRoutes"; // Importa ProtectedRoute
+import { createBrowserRouter, type RouteObject } from "react-router-dom";
+import { ProtectedRoute } from "./protectedRoutes";
+import ProtectedLayout from "../components/layouts/protected-layout/protectedLayout";
 
-const Signup = lazy(() => import("../pages/signup/signup"));
-const Dashboard = lazy(() => import("../pages/dashboard/dashboard"));
-const StudentProfile = lazy(() => import("../pages/student-profile/studentProfile"));
-const AddStudent = lazy(() => import("../pages/add-student/addStudent"));
-const LoginPage = lazy(() => import("../pages/login/loginPage"));
-const SchoolClass = lazy(() => import("../pages/school-class/schoolClass"));
-const Statistics = lazy(() => import("../pages/statistics/statistics")); 
-const Chat = lazy(() => import("../pages/chat/chat")); // Importa Chat
+// 1. Definición segura de lazy imports
+const lazyImport = (path: string) =>
+  lazy(() =>
+    import(`../pages/${path}`)
+      .then((module) => ({ default: module.default }))
+      .catch(() => ({ default: () => <div>Error loading component</div> }))
+  );
 
-export const router: ReturnType<typeof createBrowserRouter> = createBrowserRouter([
+// 2. Carga de componentes
+const LoginPage = lazyImport("login/loginPage");
+const Signup = lazyImport("signup/signup");
+const Dashboard = lazyImport("dashboard/dashboard");
+const StudentProfile = lazyImport("student-profile/studentProfile");
+const AddStudent = lazyImport("add-student/addStudent");
+const SchoolClass = lazyImport("school-class/schoolClass");
+const Statistics = lazyImport("statistics/statistics");
+const Chat = lazyImport("chat/chat");
+
+// 3. Definición de rutas con tipo explícito
+const routes: RouteObject[] = [
   {
     path: "/",
     element: <LoginPage />,
@@ -21,33 +33,28 @@ export const router: ReturnType<typeof createBrowserRouter> = createBrowserRoute
     element: <Signup />,
   },
   {
-    path: "/dashboard",
-    element: <ProtectedRoute />,
+    element: <ProtectedRoute />, // Capa de protección
     children: [
       {
-        path: "",
-        element: <Dashboard />,
-      },
-      {
-        path: "student/:id",
-        element: <StudentProfile />,
-      },
-      {
-        path: "add-student",
-        element: <AddStudent />,
-      },
-      {
-        path: ":school/:course",
-        element: <SchoolClass />,
-      },
-      {
-        path: "chat", // Nueva ruta para Chat
-        element: <Chat />,
-      },
-      {
-        path: "estadisticas", // Nueva ruta para Chat
-        element: <Statistics />,
+        element: <ProtectedLayout />, // Layout con Sidebar
+        children: [
+          {
+            path: "/dashboard",
+            children: [
+              { index: true, element: <Dashboard /> },
+              { path: "student/:id", element: <StudentProfile /> },
+              { path: "add-student", element: <AddStudent /> },
+              { path: ":school/:course", element: <SchoolClass /> },
+              { path: "chat", element: <Chat /> },
+              { path: "estadisticas", element: <Statistics /> },
+            ],
+          },
+        ],
       },
     ],
   },
-]);
+];
+
+// 4. Solución definitiva para el tipo del router
+interface AppRouter extends ReturnType<typeof createBrowserRouter> {}
+export const router: AppRouter = createBrowserRouter(routes);

@@ -1,4 +1,3 @@
-// src/hooks/useStudentProfile.ts
 import { useState, useEffect } from "react";
 import {
   fetchStudent,
@@ -6,6 +5,7 @@ import {
   deleteStudent,
 } from "../utils/studentsProfile";
 import { Student } from "../interface/student/stundent";
+import { toast } from "react-toastify";
 
 export const useStudentProfile = (
   id: string | undefined,
@@ -15,8 +15,7 @@ export const useStudentProfile = (
   const [error, setError] = useState<string | null>(null);
   const [isEditing, setIsEditing] = useState(false);
   const [updatedData, setUpdatedData] = useState<Student | null>(null);
-  const [successMessage, setSuccessMessage] = useState<string | null>(null);
-  const [isDeleted, setIsDeleted] = useState(false); // Nuevo estado
+  const [isDeleted, setIsDeleted] = useState(false);
 
   useEffect(() => {
     const fetchData = async () => {
@@ -64,37 +63,48 @@ export const useStudentProfile = (
 
     try {
       const data = await updateStudent(id, token, updatedData);
-      setSuccessMessage("Estudiante actualizado con éxito.");
       setStudent(data);
       setIsEditing(false);
+      toast.success("Estudiante actualizado con éxito.", {
+        position: "top-right",
+      });
     } catch (error: any) {
-      setError(error.message || "Error inesperado");
+      toast.error(error.message || "Error inesperado", {
+        position: "top-right",
+      });
     }
   };
 
   const handleDelete = async () => {
     if (!id) {
-      setError("ID del estudiante no proporcionado");
+      toast.error("ID del estudiante no proporcionado", {
+        position: "top-right",
+      });
       return;
     }
 
     if (!token) {
-      setError("Token no proporcionado");
+      toast.error("Token no proporcionado", { position: "top-right" });
       return;
     }
 
     if (
       !window.confirm("¿Estás seguro de que deseas eliminar a este estudiante?")
-    )
+    ) {
       return;
+    }
 
     try {
       await deleteStudent(id, token);
-      setSuccessMessage("Estudiante eliminado con éxito.");
       setStudent(null);
       setIsDeleted(true);
+      toast.success("Estudiante eliminado con éxito.", {
+        position: "top-right",
+      });
     } catch (error: any) {
-      setError(error.message || "Error inesperado");
+      toast.error(error.message || "Error inesperado", {
+        position: "top-right",
+      });
     }
   };
 
@@ -103,7 +113,6 @@ export const useStudentProfile = (
     error,
     isEditing,
     updatedData,
-    successMessage,
     handleEdit,
     handleChange,
     handleSubmitEdit,

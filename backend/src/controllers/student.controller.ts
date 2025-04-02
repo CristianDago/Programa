@@ -1,17 +1,16 @@
 import { NextFunction, Request, Response } from "express";
 import { studentService } from "../services/student.service";
 
-
-// Función auxiliar para transformar todas las cadenas de un objeto a mayúsculas 
+// Función auxiliar para transformar todas las cadenas de un objeto a mayúsculas
 function transformStringsToUppercase(obj: any): any {
-  if (typeof obj !== 'object' || obj === null) {
+  if (typeof obj !== "object" || obj === null) {
     return obj;
   }
 
   const transformedObj: any = {};
   for (const key in obj) {
     if (obj.hasOwnProperty(key)) {
-      if (typeof obj[key] === 'string') {
+      if (typeof obj[key] === "string") {
         transformedObj[key] = obj[key].toUpperCase();
       } else {
         transformedObj[key] = transformStringsToUppercase(obj[key]); // Recursión para objetos anidados
@@ -20,7 +19,6 @@ function transformStringsToUppercase(obj: any): any {
   }
   return transformedObj;
 }
-
 
 // Crear estudiante
 const createStudentHandler = async (

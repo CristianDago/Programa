@@ -6,7 +6,7 @@ import { CreationAttributes } from "sequelize";
 const createStudent = async (
   studentData: Partial<CreationAttributes<Student>>
 ): Promise<Omit<Student, "id">> => {
-  const { email, phone, name, lastname } = studentData;
+  const { phone, name, lastname } = studentData;
 
   // Validar campos obligatorios
   const validateField = (field: any, fieldName: string): void => {
@@ -17,13 +17,12 @@ const createStudent = async (
 
   validateField(name, "El nombre");
   validateField(lastname, "El apellido");
-  validateField(email, "El email");
   validateField(phone, "El número de teléfono");
 
-  // Verificar si el estudiante ya existe
-  const existingStudent = await Student.findOne({ where: { email } });
+  // Verificar si el estudiante ya existe por número de teléfono
+  const existingStudent = await Student.findOne({ where: { phone } });
   if (existingStudent) {
-    throw new HttpError("El email ya está registrado", 409);
+    throw new HttpError("El número de teléfono ya está registrado", 409);
   }
 
   // Crear el estudiante en la base de datos
@@ -69,14 +68,14 @@ const updateStudentById = async (
   id: string,
   studentData: Partial<Student>
 ): Promise<Omit<Student, "id">> => {
-  // Verificar si se está intentando modificar el email
-  if (studentData.email) {
+  // Verificar si se está intentando modificar el phone
+  if (studentData.phone) {
     const existingStudent = await Student.findOne({
-      where: { email: studentData.email },
+      where: { phone: studentData.phone },
     });
     if (existingStudent && existingStudent.id !== id) {
       throw new HttpError(
-        "El email ya está registrado por otro estudiante",
+        "El número de teléfono ya está registrado por otro estudiante",
         400
       );
     }

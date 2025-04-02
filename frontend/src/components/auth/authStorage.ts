@@ -1,51 +1,36 @@
-import { useState, useEffect } from "react";
+// src/components/auth/authStorage.ts
+import { useState, useEffect, useMemo, useCallback } from "react";
 import Cookies from "js-cookie";
-import * as Sentry from "@sentry/react"; // Importa Sentry para el registro de errores
 
 export const useAuthStorage = () => {
   const [token, setToken] = useState<string | null>(() => {
-    try {
-      return Cookies.get("token") ?? null;
-    } catch (error) {
-      Sentry.captureException(error);
-      console.error("Error al obtener el token de las cookies:", error);
-      return null;
-    }
+    const cookieToken = Cookies.get("token");
+    return cookieToken || null;
   });
 
+  // Memoiza las funciones
+  const clearToken = useCallback(() => setToken(null), []);
+  const updateToken = useCallback((newToken: string) => setToken(newToken), []);
+
+  // Efecto optimizado
   useEffect(() => {
     if (token) {
-      try {
-        Cookies.set("token", token, {
-          expires: 1,
-          secure: process.env.NODE_ENV === "production", // Solo Secure en producción
-          httpOnly: true,
-          sameSite: "strict",
-        });
-      } catch (error) {
-        Sentry.captureException(error);
-        console.error("Error al establecer el token en las cookies:", error);
-      }
+      Cookies.set("token", token, {
+        expires: 1,
+        secure: process.env.NODE_ENV === "production",
+        sameSite: "strict",
+      });
     } else {
-      try {
-        Cookies.remove("token", {
-          secure: process.env.NODE_ENV === "production",
-          sameSite: "strict",
-        });
-      } catch (error) {
-        Sentry.captureException(error);
-        console.error("Error al eliminar el token de las cookies:", error);
-      }
+      Cookies.remove("token");
     }
   }, [token]);
 
-  const clearToken = () => {
-    setToken(null);
-  };
-
-  const updateToken = (newToken: string) => {
-    setToken(newToken);
-  };
-
-  return { token, setToken, clearToken, updateToken };
+  return useMemo(
+    () => ({
+      token,
+      clearToken,
+      updateToken,
+    }),
+    [token, clearToken, updateToken]
+  );
 };

@@ -30,12 +30,17 @@
     li {
       cursor: pointer;
       padding: 10px;
-      display: flex;
-      align-items: center;
-      position: relative;
+      display: block; /* Asegura que el li ocupe todo el espacio disponible */
+      position: relative; /* Para el posicionamiento absoluto del dropdown */
+      width: 100%; /* Ocupa todo el ancho disponible */
+      transition: all 0.3s ease; /* Transición para la expansión y contracción */
 
       &:hover {
         color: vars.$primary-color;
+        background-color: vars.$secondary-color-hover;
+      }
+
+      &.open {
         background-color: vars.$secondary-color-hover;
       }
     }
@@ -43,27 +48,28 @@
 
   .dropdownToggle {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
+    align-items: center; // Asegura alineación vertical
+    width: 100%; // Asegura que el clic cubra todo el ancho
+    cursor: pointer;
   }
 
   .dropdownMenu {
     list-style: none;
-    padding: 5px 0;
-    border-radius: 4px;
-    position: absolute;
-    top: 100%;
+    position: absolute; /* Ahora se posiciona absolutamente dentro del li */
+    top: 100%; /* Justo debajo del colegio */
     left: 0;
     width: 100%;
     z-index: 1000;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    transition: height 0.3s ease; /* Transición para suavizar la expansión */
+    overflow: hidden; /* Ocultar contenido cuando está colapsado */
 
     li {
       width: 100%;
       padding: 8px 15px;
       cursor: pointer;
       background: vars.$secondary-color-hover;
-      border-bottom: 1px solid vars.$black;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
 
       &:hover {
         background-color: vars.$primary-color;
